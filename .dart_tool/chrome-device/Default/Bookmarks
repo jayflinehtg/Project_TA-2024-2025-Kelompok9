@@ -1,0 +1,395 @@
+{
+   "checksum": "cc8cc71e34ca9b9374a42fce5e6880db",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13383109748024216",
+            "date_last_used": "0",
+            "guid": "ee7acd13-6cad-4fe6-82d0-e24d66736f38",
+            "id": "36",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383109748023951",
+            "date_last_used": "0",
+            "guid": "612bed00-8129-4262-be19-40f49359a5fa",
+            "id": "35",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13295765895198584",
+            "date_last_used": "0",
+            "guid": "a2ec7b5d-16bf-4811-b5cf-efe4879ff443",
+            "id": "8",
+            "name": "SSCASN DIKDIN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://dikdin-daftar.bkn.go.id/dokumen",
+            "visit_count": 0
+         }, {
+            "date_added": "13297771442708754",
+            "date_last_used": "0",
+            "guid": "c4cc6d64-6434-4434-8be8-ad04b38ad0ed",
+            "id": "9",
+            "name": "SSCASN DIKDIN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://dikdin-daftar.bkn.go.id/resume",
+            "visit_count": 0
+         }, {
+            "date_added": "13298125077012442",
+            "date_last_used": "0",
+            "guid": "d2639c49-e697-4e94-8ebc-e3736fc075e0",
+            "id": "10",
+            "name": "SPCP IPDN 2022",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://spcp.ipdn.ac.id/2022/#",
+            "visit_count": 0
+         }, {
+            "date_added": "13298296983237713",
+            "date_last_used": "0",
+            "guid": "4e1d5e54-e9bf-46c3-9926-2c27544cd8eb",
+            "id": "11",
+            "name": "Simulasi CAT",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://cat.bkn.go.id/simulasi/info.php",
+            "visit_count": 0
+         }, {
+            "date_added": "13309398815104613",
+            "date_last_used": "0",
+            "guid": "898fd1f7-782d-4ab7-8802-dcdd1d34acb9",
+            "id": "12",
+            "name": "Kumpulan Ayat Al Quran Tentang Akhlak Lengkap - FiqihMuslim.com",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.fiqihmuslim.com/2017/12/ayat-al-quran-tentang-akhlak.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13309398819360410",
+            "date_last_used": "0",
+            "guid": "5d026e39-2414-42b4-ae71-17efd950a991",
+            "id": "13",
+            "name": "Brown and Beige Minimalist Modern illustrated Book Lover Presentation - Presentation",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAFOFUXY6yo/yw1nAtcFI9uYTmStscmCBw/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13311056488682949",
+            "date_last_used": "0",
+            "guid": "af1a6160-c50a-4723-9c6b-5cee06fdcb9e",
+            "id": "14",
+            "name": "a",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAFP6-XXvno/v-NoKi-e6WPRd8M_GClHig/edit?layoutQuery=Presentations+%2816%3A9%29",
+            "visit_count": 0
+         }, {
+            "date_added": "13312394458842778",
+            "date_last_used": "0",
+            "guid": "e22b9361-9886-4a6b-b3fc-d113b985630e",
+            "id": "15",
+            "name": "Blue Isometric Elements & Mockups Technology in Education Technology Presentation - Presentation",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAFRV6c6dZg/q5ZWEw1tRGzuNjVqDwbfWw/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13357480956671084",
+            "date_last_used": "0",
+            "guid": "c39a5654-acbb-42da-a45f-158cbaa80fac",
+            "id": "16",
+            "name": "",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.msn.com/id-id/ekonomi/daftarpantau?id=aqhmww&tab=Markets&ocid=msedgntp&cvid=042138b9782f4e94811a46fe812c9611",
+            "visit_count": 0
+         }, {
+            "date_added": "13313777508599427",
+            "date_last_used": "0",
+            "guid": "99668c21-d91a-4e40-b038-9053336472bc",
+            "id": "17",
+            "name": "yt - Search",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.bing.com/search?q=yt&cvid=feabe52e053e43ef85908c8cc583aa90&aqs=edge.0.69i59l2j0l5j69i60j69i61.930j0j1&pglt=171&FORM=ANNTA1&PC=ASTS",
+            "visit_count": 0
+         }, {
+            "date_added": "13322125609826057",
+            "date_last_used": "0",
+            "guid": "a66598d5-fff1-440b-ab33-2c0bb2841269",
+            "id": "18",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/?x-yt-cl=84503534&x-yt-ts=1421914688",
+            "visit_count": 0
+         }, {
+            "date_added": "13324102533733829",
+            "date_last_used": "0",
+            "guid": "9bcbdb70-a41a-45c2-be60-587726df6bc2",
+            "id": "19",
+            "name": "Rumah Kreatif Toba - Dashboard",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://kreatif.tobakab.go.id/keranjang",
+            "visit_count": 0
+         }, {
+            "date_added": "13345870025935633",
+            "date_last_used": "0",
+            "guid": "bf03d098-e9d6-448b-b59c-87503940fb7c",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "gabrielhtg/project-spmb-pabwe at dev",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/gabrielhtg/project-spmb-pabwe/tree/dev",
+            "visit_count": 0
+         }, {
+            "date_added": "13353133227998523",
+            "date_last_used": "0",
+            "guid": "c901b95c-e8ba-4934-adad-ea184efe7c46",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DOKU",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://doku.darwinbox.com/ms/candidate/careers/a65af9d7eda2c6?apply=1",
+            "visit_count": 0
+         }, {
+            "date_added": "13355996509078681",
+            "date_last_used": "0",
+            "guid": "846930da-88eb-455e-912d-3e9ca7aaf1ae",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Commits · boysitorus/FrontEnd-FRK",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/boysitorus/FrontEnd-FRK/commits/scrum_team_2/",
+            "visit_count": 0
+         }, {
+            "date_added": "13360597331118642",
+            "date_last_used": "0",
+            "guid": "2373230d-dafb-4e6a-ae49-73d72bed798e",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pink and yellow Understanding Cats modern presentation - Presentation",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAF7-qP49Sw/UxHy_EuuYJx1D4Gosg9wTQ/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13362462632541468",
+            "date_last_used": "0",
+            "guid": "1d483799-bdae-4ded-b33f-8a4a72214d8e",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "e153b6e1b2b5eb074bc747f953615932",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://apipuro.del.ac.id/v1/file/e153b6e1b2b5eb074bc747f953615932",
+            "visit_count": 0
+         }, {
+            "date_added": "13368085765333557",
+            "date_last_used": "0",
+            "guid": "b51d8045-663a-46ff-af20-5e01f4d83332",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(92) WhatsApp",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://web.whatsapp.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13372219204883225",
+            "date_last_used": "0",
+            "guid": "ea0bea49-221e-4a90-9888-cffd1ec927c9",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Company Profile - Presentation",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGSMd-DJOI/oEZs91Fei9Q9IWOxmSvh3w/edit",
+            "visit_count": 1
+         }, {
+            "date_added": "13374648441409195",
+            "date_last_used": "0",
+            "guid": "fe3fd6c9-7e9d-4a13-b707-179dda455c8a",
+            "id": "27",
+            "name": "fima",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://fimatest-qa.fifgroup.co.id:8443/fima_obs/dashboard",
+            "visit_count": 0
+         }, {
+            "date_added": "13376647820438629",
+            "date_last_used": "0",
+            "guid": "556c0767-4b86-43b7-bc85-c9e6674ab456",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TA - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1D20Na_zva9MA-WdtcuKStyxc7t_XLf7m",
+            "visit_count": 1
+         }, {
+            "date_added": "13377058704201354",
+            "date_last_used": "0",
+            "guid": "a7f75c11-4b10-40c0-af20-542a0b91f9c9",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "FIFGROUP - HCMS",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://10.17.128.79:28080/hcms-test/",
+            "visit_count": 1
+         }, {
+            "date_added": "13378881935657253",
+            "date_last_used": "0",
+            "guid": "01b1da82-e500-4809-bd53-7fa4e8483f44",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Blue and White Modern Geometric Simple Photo Business Company Presentation - Presentation - Canva",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAGZckOitf8/0KDYPhA3Xl67-rt_7MSvqQ/edit",
+            "visit_count": 1
+         }, {
+            "date_added": "13379130605886175",
+            "date_last_used": "0",
+            "guid": "784f8585-0801-48a7-890f-799c96818baf",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Terjemahan",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://translate.google.com/?sl=auto&tl=en&text=aspek%20pasar%2C%20aspek%20keuangan%2C%20aspek%20teknologi%2C%20aspek%20sumber%20daya%20manusia%2C%20serta%20aspek%20struktur%20dan%20proses.%20&op=translate",
+            "visit_count": 1
+         }, {
+            "date_added": "13380438323235810",
+            "date_last_used": "0",
+            "guid": "967a7920-0d47-406b-a732-72919e385d56",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Revisi_Sidang_TA-2023/2024-07 - Google Dokumen",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1cg8cCUzL4-RXue5SLSJZHujyiobrk-G1Lz1qbpGTAiI/edit?tab=t.0",
+            "visit_count": 1
+         }, {
+            "date_added": "13383108963649313",
+            "date_last_used": "0",
+            "guid": "55406cec-63c7-4802-89cb-3dd50a8543d9",
+            "id": "7",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383108963649076",
+            "date_last_used": "0",
+            "guid": "54c9417b-9f60-4f17-8fe1-97648534b7f4",
+            "id": "6",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         } ],
+         "date_added": "13383108963466197",
+         "date_last_used": "0",
+         "date_modified": "13383109748024216",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13383108963466200",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13383108963466202",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCL2Hx86UAQAAEgAqGFhkNEpJRGprbjVqODNRaEc3WkxrMXc9PUgDoAYMEq0BCAsSqAEKHGVRd0hnc0Z2UnJORU9qL3NudE84LzdNYmJRcz0SJDRlMWQ1ZTU0LWU5YmYtNDZjMy05OTI2LTJjMjc1NDRjZDhlYhgAIAIoAjDQtvv1zDI4186Y+7MyQOO9+fXMMkocS00rcUVqZmJXZW8wejRQdURZUys4VU4rbUlrPVofIh3dTGo5cGZiYVZFUU1COVd3YVZTMHgrWVdKcFhrPWV7xblkwj4CYAUSrAEICBKnAQocQTNYYno5NzVkMC8xYVFYaEhQSVZ5ZDdrcHVBPRIkYTJlYzdiNWQtMTZiZi00ODExLWI1Y2YtZWZlNDg3OWZmNDQzGAAgAigCMNK2+/XMMjjxzpj7szJA47359cwyShwzQ1pkRS9LTXVJTzc4a2pBTm1JMVVMNkYzSm89Wh4iHFVCd0M0NEw5alpMdzNuMFRlRmkreFJNWThJQT1lBii1G8I+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDFmNTJkZjE0LTBlYWEtNWFlMS05Mzk5LTIwYTBhMWYxZGNjNBgAIAAoADCSl5q2gDI4h5+atoAyQIefmraAMkoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKtAQgTEqgBChwwSERNVHhxZFBSaXB2RG1FT0w2WU1lTFpOUjg9EiQ5YmNiZGI3MC1hNDFhLTQ1YzItYmU2MC01ODc3MjZkZjZiYzIYACACKAIw1rb79cwyOIrPmPuzMkDnvfn1zDJKHEs2bjNlT2ZxWk5NTkJVcTVGZmJNNVNjbElNbz1aHyId/2VHTVBvQmVlWUExYVI5dDNOVkNiN210eDcvOD1l6I5chMI+AmAFEq4BCBQSqQEKHHErZllTNDAwMXVmMFFMRVlrMmV4MnZRamo3dz0SJGJmMDNkMDk4LWU5ZDYtNDQ4Yi1iNTljLTg3NTAzOTQwZmI3YxgAIAIoAjDXtvv1zDI4xeqY+7MyQOe9+fXMMkocZ1ZMbUxMZXNUT1VQQ0RIUUxLbng5dzVnSGdvPVogIh7/slQzUE00SHFvejJoakViT3BnVkhTZzdienVOND1lyPM/u8I+AmAFEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDJlZTVlZTM3LWJhYjktNTRkOS1hZmI2LTA1NmVmOTk0MmNjORgAIAAoADCNl5q2gDI4xp6atoAyQMaemraAMkocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKtAQgSEqgBChxCVTN6Z2lWNktYVThVWGMySEIrR1FITk1nQm89EiRhNjY1OThkNS1mZmYxLTQ0MGItYWIzMy0yYzBiYjI4NDEyNjkYACACKAIw1bb79cwyOOPpmPuzMkDnvfn1zDJKHEwwNkpnY3lwTzA4YW5aU0l6OXZzOFNFbGtDMD1aHyId/1RFbnMvOUs5Y2dsbWVVMXE2eXBsOWR5c2luVT1lOPk5M8I+AmAFEqwBCAkSpwEKHEwxK1d6TityOGhzaWFVME1qc1Bkdm9qeStZZz0SJGM0Y2M2ZDY0LTY0MzQtNDQzNC04YmU4LWFkMDRiMzhhZDBlZBgAIAAoADDI35j7szI4muyY+7MyQJrsmPuzMkocOVdYMzY0cnNKc2hKKzJITUswc05rbk1JeVdFPVoeIhx2bkM1VERNUVQ3MUk4OE5nbDJWU3phdTVFWjQ9ZQAAAADCPgJgBRKuAQgWEqkBChxZSmxGMm5lNnlWdVFKS3UrOEtiMnpaY1JIZkE9EiQ4NDY5MzBkYS04OGViLTQ1NWUtOTEyZC0zZTljYTdhYWYxYWUYACACKAIw47b79cwyOJTqmPuzMkDovfn1zDJKHExEM0pteUN3REE2TGV6SEEzTGhHVnZwMHpVVT1aICIe/+xCNkxPTnBFVzZMaTYwZkVudnRWNEliVlloVlk9ZcjzP7vCPgJgBRKtAQgNEqgBChx5NkNaUDZnRnFrMkpZMHk1SmlKUnVjL0ZOaGs9EiQ1ZDAyNmUzOS0yNDE0LTQyYjQtYWU3MS0xN2VmZDk1MGE5OTEYACACKAIw2Lb79cwyOLTsmPuzMkDkvfn1zDJKHDZnSmpaR3pOSG9KTDY4M0tiTkg0bmd3dU5CWT1aHyId90lzNEoxQ0ZMTFRkSjFYQ0Q1LzZMQVpLNzQ5WT1lzuVKWsI+AmAFEq0BCA8SqAEKHGFZTklSRjMzOGM1Qjg3ZTZBVGNqd1RYY20wdz0SJGUyMmI5MzYxLTk4ODYtNGE2Yi1iM2ZjLWQxMTNiOTg1NjMwZRgAIAIoAjDUtvv1zDI4zuyY+7MyQOa9+fXMMkocVkorSkxMYlQ0RXFYYmphSXltdkdCTjFOamVvPVofIh39YkdCMkFVTUl1VW4zK3hYNkw4ak5zVUZadUI0PWXO5Upawj4CYAUSrQEIDhKoAQoceEIyem9EWkorTExLdElvMitZMGNjLzFsZ2NrPRIkYWYxYTYxNjAtYzUwYS00NzIzLTljNmItNWNlZTA2ZmRjYjllGAAgAigCMNm2+/XMMjis6pj7szJA5b359cwyShxicHdBOXhsRVB1czFjRmlTVFdxWGx1MGk0bk09Wh8iHfs1c1hDOXowWHNOQW1WVGgzSENmeStRUWdzdnc9ZVIdo2XCPgJgBRKtAQgREqgBChxyZEhmMGtzT3pybkJpK2pRRWdhWnIzelF6T3M9EiQ5OTY2OGMyMS1kOTFhLTRlNDAtYjAzOC05MDUzMzM2NDcyYmMYACACKAIw2rb79cwyOLPrmPuzMkDmvfn1zDJKHDRNdWR6Z2NaZ1lTWUlpMmZsVHg4Tk8vaXI1Yz1aHyId/0Fwb3A2SjJpM3E5Z2VJQ2p4NXRJSk9oSFpZZz1lex49psI+AmAFEq8BCB4SqgEKHGY4Sk1Xdjd2MEpiSkR4MENWWllXZ3BKeHl0cz0SJDAxYjFkYTgyLWU1MDAtNDgwOS1iZDUzLTdmYTRlODQ4M2Y0NBgAIAIoAjDgtvv1zDI4sr6slr0yQOq9+fXMMkoccGdsc0FPNDJuanBLZEY5d2NHcUFqMzNKa3VBPVohIh///9lRTFBidHl4U08rRXEvVG8ySk1NMkNoek5HUEE9ZVIdo2XCPgJgBRKuAQgXEqkBChxEV2dTZHo4MWVyZHJuVVJuNVpTc2ZQSTdyZjg9EiQyMzczMjMwZC1kYWZiLTRlNmEtYWU0OS03M2Q3MmJlZDc5OGUYACACKAIw27b79cwyOM3rmPuzMkDovfn1zDJKHDM1SkVPaTNqOVRqaHlaUVNIZzVVRzcwSzFRVT1aICIe//ZkODEzMVZUeGgvR3pHZ3FRcFptQUJRNGVRdmc9ZVIdo2XCPgJgBRKuAQgYEqkBChxWMmRiekk1d2dLTWdJYldDN0JhR3U2eTN0RFk9EiQxZDQ4Mzc5OS1iZGFlLTRkZWQtYjMzZi04YTRhNzIyMTRkOGUYACAAKAAwxt+Y+7MyOOfrmPuzMkDn65j7szJKHENnbUZ2RWpYY0c3S0srOUROMFh2WWJGZ2xWdz1aICIe//tvS3g4OXNqNnhtck1ZakJ3ZWp5SEdoQ2Fxd1E9ZQAAAADCPgJgBRKuAQgZEqkBChxvM2ExeldOcXpseVVseW1mUUhTeVFYbHJISk09EiRiNTFkODA0NS02NjNhLTQ2ZmYtYWYyMC01ZTAxZjRkODMzMzIYACACKAIw3Lb79cwyOIHsmPuzMkDpvfn1zDJKHFhqVDVRcytPbzNpUmcxZlMzTW1wTmp4TTdGVT1aICIe//1WOHpIYk8rMmVidnorc2dFYkFKaWtnWDlNbW89ZVCu6SPCPgJgBRKuAQgaEqkBChxGUzNPVHZQOE12eGU4d2orYXFhODdIaFJLRjQ9EiRlYTBiZWE0OS0yMjFlLTRhOTAtOTg4OC1jZmZkMWVjOTI3YzkYACACKAIw3rb79cwyOPjqmPuzMkDpvfn1zDJKHEd4enJ1YUtTQUo5RnRncGRmdjJkZHVFMkJDND1aICIe//54RnRnM1ZFaC8rKzZKMndod281ZDFmbTU0WHc9ZVIdo2XCPgJgBRKuAQgbEqkBChxRYnFiM3JQVWJ4NUdHY3VsSEwzVzFwRzNzTHM9EiRmZTNmZDZjOS03ZTlkLTRhMTMtYjcwNy0xNzlkZGE0NTVjOGEYACACKAIw3bb79cwyOOfsmPuzMkDqvfn1zDJKHFlkOUV1S29EaU5KVzh6TVJHYlZVQ2pyeVhkVT1aICIe//9hZm1taEtrWXBiTWF2Nis5RGtXb1VTRStuTmM9Zer48K7CPgJgBRKuAQgcEqkBChxWUmZwTHlFdU5iekZWbXdzQ0x1L0w4TlRLbUE9EiQ1NTZjMDc2Ny00Yjg2LTQzYjctYmM4NS1jOWU2Njc0YWI0NTYYACACKAIw4rb79cwyOLuwhO20MkDqvfn1zDJKHFRLRGhLZkIwdzlPNG5iNjA3RjJMcDhuaXl0VT1aICIe//9lUTJxZ2EwWXI3amxSbGxKRFdiU3Q0MzdSNVE9ZfqR3tvCPgJgBRKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQwMThlMmUyZS1iNzAxLTU4ZWItYjc5NC1jODI4NzNmNjVkMjUYACAAKAAwjJeatoAyOKWemraAMkClnpq2gDJKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASrQEIChKoAQocMGMvVGRSdkZoZjNYOVJrYVk4NThOd0xnN0Q4PRIkZDI2MzljNDktZTY5Ny00ZTk0LThlYmMtZTM3MzZmYzA3NWUwGAAgAigCMNO2+/XMMjikz5j7szJA47359cwyShxMMHpycXNTNHJBQTlnSXpXTFNFVFl0VSsrdlk9Wh8iHbtFbVE4aUJlZ3NWMlBmeVRRclZ0VzNvUUxGUWs9ZYrqeADCPgJgBRKvAQgdEqoBChxpaTFDVEt1QTlhRlVLb2JIejQrVWE5YmdLbWM9EiRhN2Y3NWMxMS00YjEwLTQwYzAtYWYyMC01NDJhMGI5MWY5YzkYACAAKAAw9NP6sLYyOIXX+rC2MkCF1/qwtjJKHEJBOHpjaFpNUVhHQU9ZNHRtWXl4NWR1dytiMD1aISIf//+yMndjUm9wMUZBbWJXMGlKTzB1dVorcFZOSENFPWUAAAAAwj4CYAUSrwEIHxKqAQocdit6bVc3T1E4eTdvZCtpQ21sY2FRN3ZmNS80PRIkNzg0Zjg1ODUtMDgwMS00OGE3LTg5MGYtNzk5Yzk2ODE4YmFmGAAgAigCMOG2+/XMMji+xvWMvjJA67359cwyShxIaWRWaFlNWWVWS1NzWFgwS3pOaWZZYlhSQXM9WiEiH///7EdGVFkyREovSkp3UHB5MjdhUlFaY21HTDdYQT1lxc+QAcI+AmAFEq0BCBASqAEKHGE0SkhqMHcrWEpzUWtFditKTjZCaUlGQldITT0SJGMzOWE1NjU0LWFjYmItNDJkYS1hNDVmLTE1OGNiYWE4MGZhYxgAIAAoADDB35j7szI43uqY+7MyQN7qmPuzMkocMzhlVGhodFdNVmJITnBRRXRvTCtRT09VSDIwPVofIh3+aTBlVXhpRU00bnhBMzh6NjFYSGNQdmdjUlFVPWUAAAAAwj4CYAUSrgEIFRKpAQocKzVvVG9KQUFDc0lKNVYyc0ErblJ1VDJYYklVPRIkYzkwMWI5NWMtZThiYS00OTM0LWFkYWQtZWExODRlZmU3YzQ2GAAgAigCMOS2+/XMMjiY65j7szJA6L359cwyShwrUFhPRnpKQWN2SFpsaDVJdk1TdUtCazA5VE09WiAiHv/ZNGFTWnM3d09wZ3B1RDVXMkdWamVaU09ybDZJPWURJCZswj4CYAUSrQEIDBKoAQocdGJWeVB6TnE5MkFtbnRSTTFjRnRGYXFkb01NPRIkODk4ZmQxZjctNzgyZC00YWI3LTg4MDItZGNkZDFkMzRhY2I5GAAgAigCMNG2+/XMMjj76Zj7szJA5L359cwyShxmdk5xQW9KWmRFRzN0eS9vK1RObk9FS0RjSUU9Wh8iHe5wSnZKN1p2QlRqQWIwWVBITndSaWQ2aUdwbDg9ZVjnDJDCPgJgBRKvAQggEqoBChxVbU9hMW81WFVYT2F5ZmczSmE4eFdnZW5URDg9EiQ5NjdhNzkyMC0wZDQ3LTQwNmItYTczMi03MjkxOWUzODVkNTYYACACKAIw37b79cwyONX2vfzCMkDvvfn1zDJKHEFlZHZoZEl3a3IrNDBlcGNXL2QrRWl4aytQRT1aISIf///2ZjJJZ0t2d1Y3UFg5ZmkwVlNTQWo3UnQ5dVR3PWU5xrawwj4CYAUwADgA",
+   "version": 1
+}
