@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_kelompok9/login.dart';
 import 'package:project_kelompok9/home.dart';
-import 'package:project_kelompok9/add-data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,8 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   static final List<Widget> _widgetOptions = <Widget>[
     HomePage(),
-    Text('Search'),
-    TambahDataTanamanHerbal(), // Tambah halaman Tambah Data Tanaman Herbal
+    Text('TambahDataTanamanHerbal'), // Tambah halaman Tambah Data Tanaman Herbal
     LoginPage(),
   ];
 
@@ -56,10 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add),
