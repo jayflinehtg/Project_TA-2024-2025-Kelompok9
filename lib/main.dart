@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_kelompok9/login.dart';
-import 'home.dart';
+import 'package:project_kelompok9/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,22 +9,19 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-        home: const MyHomePage(title: 'Tanaman Herbal'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -33,12 +30,11 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
-  static List<Widget> _widgetOptions = <Widget>[
+  static final List<Widget> _widgetOptions = <Widget>[
     HomePage(),
-    const Text('Search'),
-    const Text('Tambah Data'),
-    // Ganti dengan widget Login
-    const LoginPage(),
+    Text('Search'),
+    Text('TambahDataTanamanHerbal'), // Tambah halaman Tambah Data Tanaman Herbal
+    LoginPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -50,20 +46,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          automaticallyImplyLeading: false,
-        ),
-        
-        body: Center(
-          child: _widgetOptions.elementAt(_selectedIndex),
-        ),
-        
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed, // Tambahkan ini
-          items: const <BottomNavigationBarItem>[
+      body: Center(
+        child: _widgetOptions.elementAt(_selectedIndex),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Home', 
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
@@ -77,38 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.person),
             label: 'Profile',
           ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.person),
-          //   label: 'Profil',
-          // ),
         ],
-      currentIndex: _selectedIndex,
-      selectedItemColor: Color(0xFF498553),
-      onTap: _onItemTapped,
-      ),
-    );
-  }
-}
-
-class ProfilePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text('Profile Page'),
-          SizedBox(height: 20),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => LoginPage()),
-              );
-            },
-            child: Text('Login'),
-          ),
-        ],
+        currentIndex: _selectedIndex,
+        selectedItemColor: Color(0xFF498553),
+        onTap: _onItemTapped,
       ),
     );
   }

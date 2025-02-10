@@ -1,33 +1,11 @@
 {
-   "checksum": "b2b584398bc3954f226c0bb5bbcb07b4",
+   "checksum": "18d94d0a83328c38dea78e38e91ff69f",
    "roots": {
       "bookmark_bar": {
          "children": [ {
-            "date_added": "13383628010686483",
+            "date_added": "13383645760323157",
             "date_last_used": "0",
-            "guid": "b0df020a-4903-4129-8e68-08c35c540d76",
-            "id": "52",
-            "name": "ASUS Software Portal - Exclusive technology",
-            "show_icon": false,
-            "source": "oem_preload",
-            "type": "url",
-            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383628010686277",
-            "date_last_used": "0",
-            "guid": "225a5cf8-aa0f-4b07-8827-b9be6b280eca",
-            "id": "51",
-            "name": "MyASUS Software - Get the best from ASUS PC",
-            "show_icon": false,
-            "source": "oem_preload",
-            "type": "url",
-            "url": "https://www.asus.com/ASUS-Software/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383627671219860",
-            "date_last_used": "0",
-            "guid": "b17c0187-912e-46a9-acfc-acdf02ad2555",
+            "guid": "054a4a18-66e2-491d-8fc8-9a52fbf4ee50",
             "id": "48",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
@@ -36,9 +14,9 @@
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383627671219406",
+            "date_added": "13383645760322385",
             "date_last_used": "0",
-            "guid": "c53a801c-8538-478c-8de1-a253ae622c4e",
+            "guid": "4fcf2ead-62e2-4855-a763-7ee87a4ca9e9",
             "id": "47",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
@@ -47,68 +25,68 @@
             "url": "https://www.asus.com/ASUS-Software/",
             "visit_count": 0
          }, {
-            "date_added": "13383627065433742",
+            "date_added": "13383645531684437",
             "date_last_used": "0",
-            "guid": "d3cab03e-f054-4bc4-bfb4-7d41130c7cf5",
+            "guid": "4ddd671e-1252-4e21-bd31-4e7d7b6f946d",
             "id": "44",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383627065433516",
+            "date_added": "13383645531683183",
             "date_last_used": "0",
-            "guid": "0c81c02c-61ce-45b1-8805-9c9e5d915355",
+            "guid": "96931395-3c3d-45b4-826c-0e6ac6e5b227",
             "id": "43",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/ASUS-Software/",
             "visit_count": 0
          }, {
-            "date_added": "13383626795730125",
+            "date_added": "13383645364211285",
             "date_last_used": "0",
-            "guid": "ca884dee-0157-4839-a423-0ff93b50dd69",
+            "guid": "d1f9ee58-612e-4ee1-af08-a0103801c36f",
             "id": "40",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383626795729484",
+            "date_added": "13383645364210689",
             "date_last_used": "0",
-            "guid": "568423fc-fd1c-45b7-86f4-a5c89e84728c",
+            "guid": "6183f8a0-37b8-407b-889e-56c491a51828",
             "id": "39",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/ASUS-Software/",
             "visit_count": 0
          }, {
-            "date_added": "13383626623748199",
+            "date_added": "13383645202211634",
             "date_last_used": "0",
-            "guid": "2539cf08-7acf-4fdd-8aca-c387c2650835",
+            "guid": "3054c1bd-6c66-43d4-8280-b266854fb64b",
             "id": "36",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383626623747351",
+            "date_added": "13383645202210856",
             "date_last_used": "0",
-            "guid": "5a27c6ec-68c5-4f98-8acd-a4dd9d4b219c",
+            "guid": "bbd29caa-c740-4f56-88af-8597063f6be7",
             "id": "35",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/ASUS-Software/",
             "visit_count": 0
@@ -119,7 +97,7 @@
             "id": "8",
             "name": "SSCASN DIKDIN",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://dikdin-daftar.bkn.go.id/dokumen",
             "visit_count": 0
@@ -130,7 +108,7 @@
             "id": "9",
             "name": "SSCASN DIKDIN",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://dikdin-daftar.bkn.go.id/resume",
             "visit_count": 0
@@ -141,7 +119,7 @@
             "id": "10",
             "name": "SPCP IPDN 2022",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://spcp.ipdn.ac.id/2022/#",
             "visit_count": 0
@@ -152,7 +130,7 @@
             "id": "11",
             "name": "Simulasi CAT",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://cat.bkn.go.id/simulasi/info.php",
             "visit_count": 0
@@ -163,7 +141,7 @@
             "id": "12",
             "name": "Kumpulan Ayat Al Quran Tentang Akhlak Lengkap - FiqihMuslim.com",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.fiqihmuslim.com/2017/12/ayat-al-quran-tentang-akhlak.html",
             "visit_count": 0
@@ -174,7 +152,7 @@
             "id": "13",
             "name": "Brown and Beige Minimalist Modern illustrated Book Lover Presentation - Presentation",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAFOFUXY6yo/yw1nAtcFI9uYTmStscmCBw/edit",
             "visit_count": 0
@@ -185,7 +163,7 @@
             "id": "14",
             "name": "a",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAFP6-XXvno/v-NoKi-e6WPRd8M_GClHig/edit?layoutQuery=Presentations+%2816%3A9%29",
             "visit_count": 0
@@ -196,7 +174,7 @@
             "id": "15",
             "name": "Blue Isometric Elements & Mockups Technology in Education Technology Presentation - Presentation",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAFRV6c6dZg/q5ZWEw1tRGzuNjVqDwbfWw/edit",
             "visit_count": 0
@@ -207,7 +185,7 @@
             "id": "16",
             "name": "",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.msn.com/id-id/ekonomi/daftarpantau?id=aqhmww&tab=Markets&ocid=msedgntp&cvid=042138b9782f4e94811a46fe812c9611",
             "visit_count": 0
@@ -218,7 +196,7 @@
             "id": "17",
             "name": "yt - Search",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.bing.com/search?q=yt&cvid=feabe52e053e43ef85908c8cc583aa90&aqs=edge.0.69i59l2j0l5j69i60j69i61.930j0j1&pglt=171&FORM=ANNTA1&PC=ASTS",
             "visit_count": 0
@@ -229,7 +207,7 @@
             "id": "18",
             "name": "YouTube",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.youtube.com/?x-yt-cl=84503534&x-yt-ts=1421914688",
             "visit_count": 0
@@ -240,7 +218,7 @@
             "id": "19",
             "name": "Rumah Kreatif Toba - Dashboard",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "http://kreatif.tobakab.go.id/keranjang",
             "visit_count": 0
@@ -254,7 +232,7 @@
             },
             "name": "gabrielhtg/project-spmb-pabwe at dev",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://github.com/gabrielhtg/project-spmb-pabwe/tree/dev",
             "visit_count": 0
@@ -268,7 +246,7 @@
             },
             "name": "DOKU",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://doku.darwinbox.com/ms/candidate/careers/a65af9d7eda2c6?apply=1",
             "visit_count": 0
@@ -282,7 +260,7 @@
             },
             "name": "Commits · boysitorus/FrontEnd-FRK",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://github.com/boysitorus/FrontEnd-FRK/commits/scrum_team_2/",
             "visit_count": 0
@@ -296,7 +274,7 @@
             },
             "name": "Pink and yellow Understanding Cats modern presentation - Presentation",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAF7-qP49Sw/UxHy_EuuYJx1D4Gosg9wTQ/edit",
             "visit_count": 0
@@ -310,7 +288,7 @@
             },
             "name": "e153b6e1b2b5eb074bc747f953615932",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://apipuro.del.ac.id/v1/file/e153b6e1b2b5eb074bc747f953615932",
             "visit_count": 0
@@ -324,7 +302,7 @@
             },
             "name": "(92) WhatsApp",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://web.whatsapp.com/",
             "visit_count": 0
@@ -338,10 +316,10 @@
             },
             "name": "Company Profile - Presentation",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAGSMd-DJOI/oEZs91Fei9Q9IWOxmSvh3w/edit",
-            "visit_count": 0
+            "visit_count": 1
          }, {
             "date_added": "13374648441409195",
             "date_last_used": "0",
@@ -349,7 +327,7 @@
             "id": "27",
             "name": "fima",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://fimatest-qa.fifgroup.co.id:8443/fima_obs/dashboard",
             "visit_count": 0
@@ -363,10 +341,10 @@
             },
             "name": "TA - Google Drive",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://drive.google.com/drive/folders/1D20Na_zva9MA-WdtcuKStyxc7t_XLf7m",
-            "visit_count": 0
+            "visit_count": 1
          }, {
             "date_added": "13377058704201354",
             "date_last_used": "0",
@@ -377,10 +355,10 @@
             },
             "name": "FIFGROUP - HCMS",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "http://10.17.128.79:28080/hcms-test/",
-            "visit_count": 0
+            "visit_count": 1
          }, {
             "date_added": "13378881935657253",
             "date_last_used": "0",
@@ -391,10 +369,10 @@
             },
             "name": "Blue and White Modern Geometric Simple Photo Business Company Presentation - Presentation - Canva",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://www.canva.com/design/DAGZckOitf8/0KDYPhA3Xl67-rt_7MSvqQ/edit",
-            "visit_count": 0
+            "visit_count": 1
          }, {
             "date_added": "13379130605886175",
             "date_last_used": "0",
@@ -405,10 +383,10 @@
             },
             "name": "Google Terjemahan",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://translate.google.com/?sl=auto&tl=en&text=aspek%20pasar%2C%20aspek%20keuangan%2C%20aspek%20teknologi%2C%20aspek%20sumber%20daya%20manusia%2C%20serta%20aspek%20struktur%20dan%20proses.%20&op=translate",
-            "visit_count": 0
+            "visit_count": 1
          }, {
             "date_added": "13380438323235810",
             "date_last_used": "0",
@@ -419,36 +397,36 @@
             },
             "name": "Revisi_Sidang_TA-2023/2024-07 - Google Dokumen",
             "show_icon": false,
-            "source": "unknown",
+            "source": "sync",
             "type": "url",
             "url": "https://docs.google.com/document/d/1cg8cCUzL4-RXue5SLSJZHujyiobrk-G1Lz1qbpGTAiI/edit?tab=t.0",
-            "visit_count": 0
+            "visit_count": 1
          }, {
-            "date_added": "13383626425199336",
+            "date_added": "13383644896344935",
             "date_last_used": "0",
-            "guid": "2916146c-b0d1-4453-9ce3-0ecd9931fddf",
+            "guid": "e62cf1c1-95ef-4f25-a2ec-01dabc8a726f",
             "id": "7",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383626425198151",
+            "date_added": "13383644896343672",
             "date_last_used": "0",
-            "guid": "f65d151b-695f-4e3c-9c95-21b88f1175ee",
+            "guid": "19722b15-20e0-4a0c-8117-0aedfc4eaf68",
             "id": "6",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/ASUS-Software/",
             "visit_count": 0
          } ],
-         "date_added": "13383626424589357",
+         "date_added": "13383644895971131",
          "date_last_used": "0",
-         "date_modified": "13383628010686483",
+         "date_modified": "13383645760323157",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Favorites bar",
@@ -457,7 +435,7 @@
       },
       "other": {
          "children": [  ],
-         "date_added": "13383626424589364",
+         "date_added": "13383644895971135",
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
@@ -468,7 +446,7 @@
       },
       "synced": {
          "children": [  ],
-         "date_added": "13383626424589370",
+         "date_added": "13383644895971138",
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
@@ -478,5 +456,6 @@
          "type": "folder"
       }
    },
+   "sync_metadata": "CjEKDgiIgQISCNigsO6UAQAAEgAqGG5UQWxRVFRoUVZ6WXhIZ3FDTlNRVnc9PUgDoAYMEq4BCBsSqQEKHFFicWIzclBVYng1R0djdWxITDNXMXBHM3NMcz0SJGZlM2ZkNmM5LTdlOWQtNGExMy1iNzA3LTE3OWRkYTQ1NWM4YRgAIAIoAjDRwcL1zjI45+yY+7MyQKauwPXOMkocWWQ5RXVLb0RpTkpXOHpNUkdiVlVDanJ5WGRVPVogIh7//2FmbW1oS2tZcGJNYXY2KzlEa1dvVVNFK25OYz1l6vjwrsI+AmAFEq4BCBUSqQEKHCs1b1RvSkFBQ3NJSjVWMnNBK25SdVQyWGJJVT0SJGM5MDFiOTVjLWU4YmEtNDkzNC1hZGFkLWVhMTg0ZWZlN2M0NhgAIAIoAjDJwcL1zjI4mOuY+7MyQKSuwPXOMkocK1BYT0Z6SkFjdkhabGg1SXZNU3VLQmswOVRNPVogIh7/2TRhU1pzN3dPcGdwdUQ1VzJHVmplWlNPcmw2ST1lESQmbMI+AmAFEq8BCCASqgEKHFVtT2ExbzVYVVhPYXlmZzNKYTh4V2dlblREOD0SJDk2N2E3OTIwLTBkNDctNDA2Yi1hNzMyLTcyOTE5ZTM4NWQ1NhgAIAIoAjDTwcL1zjI41fa9/MIyQK+uwPXOMkocQWVkdmhkSXdrcis0MGVwY1cvZCtFaXhrK1BFPVohIh////ZmMklnS3Z3VjdQWDlmaTBWU1NBajdSdDl1VHc9ZTnGtrDCPgJgBRKtAQgMEqgBChx0YlZ5UHpOcTkyQW1udFJNMWNGdEZhcWRvTU09EiQ4OThmZDFmNy03ODJkLTRhYjctODgwMi1kY2RkMWQzNGFjYjkYACACKAIwx8HC9c4yOPvpmPuzMkCfrsD1zjJKHGZ2TnFBb0paZEVHM3R5L28rVE5uT0VLRGNJRT1aHyId7nBKdko3WnZCVGpBYjBZUEhOd1JpZDZpR3BsOD1lWOcMkMI+AmAFEq0BCBASqAEKHGE0SkhqMHcrWEpzUWtFditKTjZCaUlGQldITT0SJGMzOWE1NjU0LWFjYmItNDJkYS1hNDVmLTE1OGNiYWE4MGZhYxgAIAAoADDB35j7szI43uqY+7MyQN7qmPuzMkocMzhlVGhodFdNVmJITnBRRXRvTCtRT09VSDIwPVofIh3+aTBlVXhpRU00bnhBMzh6NjFYSGNQdmdjUlFVPWUAAAAAwj4CYAUSrwEIHRKqAQocaWkxQ1RLdUE5YUZVS29iSHo0K1VhOWJnS21jPRIkYTdmNzVjMTEtNGIxMC00MGMwLWFmMjAtNTQyYTBiOTFmOWM5GAAgACgAMPTT+rC2MjiF1/qwtjJAhdf6sLYyShxCQTh6Y2haTVFYR0FPWTR0bVl5eDVkdXcrYjA9WiEiH///sjJ3Y1JvcDFGQW1iVzBpSk8wdXVaK3BWTkhDRT1lAAAAAMI+AmAFEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDAxOGUyZTJlLWI3MDEtNThlYi1iNzk0LWM4Mjg3M2Y2NWQyNRgAIAAoADCMl5q2gDI4pZ6atoAyQKWemraAMkocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKvAQgfEqoBChx2K3ptVzdPUTh5N29kK2lDbWxjYVE3dmY1LzQ9EiQ3ODRmODU4NS0wODAxLTQ4YTctODkwZi03OTljOTY4MThiYWYYACACKAIw0sHC9c4yOL7G9Yy+MkCnrsD1zjJKHEhpZFZoWU1ZZVZLU3NYWDBLek5pZlliWFJBcz1aISIf///sR0ZUWTJESi9KSndQcHkyN2FSUVpjbUdMN1hBPWXFz5ABwj4CYAUSrQEIChKoAQocMGMvVGRSdkZoZjNYOVJrYVk4NThOd0xnN0Q4PRIkZDI2MzljNDktZTY5Ny00ZTk0LThlYmMtZTM3MzZmYzA3NWUwGAAgAigCMMHBwvXOMjikz5j7szJAnq7A9c4yShxMMHpycXNTNHJBQTlnSXpXTFNFVFl0VSsrdlk9Wh8iHbtFbVE4aUJlZ3NWMlBmeVRRclZ0VzNvUUxGUWs9ZYrqeADCPgJgBRKuAQgcEqkBChxWUmZwTHlFdU5iekZWbXdzQ0x1L0w4TlRLbUE9EiQ1NTZjMDc2Ny00Yjg2LTQzYjctYmM4NS1jOWU2Njc0YWI0NTYYACACKAIwz8HC9c4yOLuwhO20MkCnrsD1zjJKHFRLRGhLZkIwdzlPNG5iNjA3RjJMcDhuaXl0VT1aICIe//9lUTJxZ2EwWXI3amxSbGxKRFdiU3Q0MzdSNVE9ZfqR3tvCPgJgBRKuAQgaEqkBChxGUzNPVHZQOE12eGU4d2orYXFhODdIaFJLRjQ9EiRlYTBiZWE0OS0yMjFlLTRhOTAtOTg4OC1jZmZkMWVjOTI3YzkYACACKAIw0MHC9c4yOPjqmPuzMkCmrsD1zjJKHEd4enJ1YUtTQUo5RnRncGRmdjJkZHVFMkJDND1aICIe//54RnRnM1ZFaC8rKzZKMndod281ZDFmbTU0WHc9ZVIdo2XCPgJgBRKuAQgZEqkBChxvM2ExeldOcXpseVVseW1mUUhTeVFYbHJISk09EiRiNTFkODA0NS02NjNhLTQ2ZmYtYWYyMC01ZTAxZjRkODMzMzIYACACKAIwzcHC9c4yOIHsmPuzMkClrsD1zjJKHFhqVDVRcytPbzNpUmcxZlMzTW1wTmp4TTdGVT1aICIe//1WOHpIYk8rMmVidnorc2dFYkFKaWtnWDlNbW89ZVCu6SPCPgJgBRKuAQgYEqkBChxWMmRiekk1d2dLTWdJYldDN0JhR3U2eTN0RFk9EiQxZDQ4Mzc5OS1iZGFlLTRkZWQtYjMzZi04YTRhNzIyMTRkOGUYACAAKAAwxt+Y+7MyOOfrmPuzMkDn65j7szJKHENnbUZ2RWpYY0c3S0srOUROMFh2WWJGZ2xWdz1aICIe//tvS3g4OXNqNnhtck1ZakJ3ZWp5SEdoQ2Fxd1E9ZQAAAADCPgJgBRKuAQgXEqkBChxEV2dTZHo4MWVyZHJuVVJuNVpTc2ZQSTdyZjg9EiQyMzczMjMwZC1kYWZiLTRlNmEtYWU0OS03M2Q3MmJlZDc5OGUYACACKAIwzMHC9c4yOM3rmPuzMkClrsD1zjJKHDM1SkVPaTNqOVRqaHlaUVNIZzVVRzcwSzFRVT1aICIe//ZkODEzMVZUeGgvR3pHZ3FRcFptQUJRNGVRdmc9ZVIdo2XCPgJgBRKvAQgeEqoBChxmOEpNV3Y3djBKYkpEeDBDVlpZV2dwSnh5dHM9EiQwMWIxZGE4Mi1lNTAwLTQ4MDktYmQ1My03ZmE0ZTg0ODNmNDQYACACKAIwyMHC9c4yOLK+rJa9MkCnrsD1zjJKHHBnbHNBTzQybmpwS2RGOXdjR3FBajMzSmt1QT1aISIf///ZUUxQYnR5eFNPK0VxL1RvMkpNTTJDaHpOR1BBPWVSHaNlwj4CYAUSrQEIERKoAQoccmRIZjBrc096cm5CaStqUUVnYVpyM3pRek9zPRIkOTk2NjhjMjEtZDkxYS00ZTQwLWIwMzgtOTA1MzMzNjQ3MmJjGAAgAigCMMrBwvXOMjiz65j7szJAoq7A9c4yShw0TXVkemdjWmdZU1lJaTJmbFR4OE5PL2lyNWM9Wh8iHf9BcG9wNkoyaTNxOWdlSUNqeDV0SUpPaEhaWWc9ZXsePabCPgJgBRKtAQgOEqgBChx4QjJ6b0RaSitMTEt0SW8yK1kwY2MvMWxnY2s9EiRhZjFhNjE2MC1jNTBhLTQ3MjMtOWM2Yi01Y2VlMDZmZGNiOWUYACACKAIwxcHC9c4yOKzqmPuzMkChrsD1zjJKHGJwd0E5eGxFUHVzMWNGaVNUV3FYbHUwaTRuTT1aHyId+zVzWEM5ejBYc05BbVZUaDNIQ2Z5K1FRZ3N2dz1lUh2jZcI+AmAFEq0BCA0SqAEKHHk2Q1pQNmdGcWsySlkweTVKaUpSdWMvRk5oaz0SJDVkMDI2ZTM5LTI0MTQtNDJiNC1hZTcxLTE3ZWZkOTUwYTk5MRgAIAIoAjDDwcL1zjI4tOyY+7MyQKCuwPXOMkocNmdKalpHek5Ib0pMNjgzS2JOSDRuZ3d1TkJZPVofIh33SXM0SjFDRkxMVGRKMVhDRDUvNkxBWks3NDlZPWXO5Upawj4CYAUSrgEIFhKpAQocWUpsRjJuZTZ5VnVRSkt1KzhLYjJ6WmNSSGZBPRIkODQ2OTMwZGEtODhlYi00NTVlLTkxMmQtM2U5Y2E3YWFmMWFlGAAgAigCMMTBwvXOMjiU6pj7szJApK7A9c4yShxSOWFRZytsNzFrMnZ6QkJqRlYzNi9GQjAvNG89WiAiHv/sQjZMT05wRVc2TGk2MGZFbnZ0VjRJYlZZaFZZPWUVUPmJwj4CYAUSrAEICRKnAQocTDErV3pOK3I4aHNpYVUwTWpzUGR2b2p5K1lnPRIkYzRjYzZkNjQtNjQzNC00NDM0LThiZTgtYWQwNGIzOGFkMGVkGAAgACgAMMjfmPuzMjia7Jj7szJAmuyY+7MyShw5V1gzNjRyc0pzaEorMkhNSzBzTmtuTUl5V0U9Wh4iHHZuQzVURE1RVDcxSTg4TmdsMlZTemF1NUVaND1lAAAAAMI+AmAFEq0BCBISqAEKHEJVM3pnaVY2S1hVOFVYYzJIQitHUUhOTWdCbz0SJGE2NjU5OGQ1LWZmZjEtNDQwYi1hYjMzLTJjMGJiMjg0MTI2ORgAIAIoAjDCwcL1zjI44+mY+7MyQKKuwPXOMkocTDA2SmdjeXBPMDhhblpTSXo5dnM4U0Vsa0MwPVofIh3/VEVucy85SzljZ2xtZVUxcTZ5cGw5ZHlzaW5VPWU4+Tkzwj4CYAUSrQEIDxKoAQocYVlOSVJGMzM4YzVCODdlNkFUY2p3VFhjbTB3PRIkZTIyYjkzNjEtOTg4Ni00YTZiLWIzZmMtZDExM2I5ODU2MzBlGAAgAigCMM7BwvXOMjjO7Jj7szJAoa7A9c4yShxWSitKTExiVDRFcVhiamFJeW12R0JOMU5qZW89Wh8iHf1iR0IyQVVNSXVVbjMreFg2TDhqTnNVRlp1QjQ9Zc7lSlrCPgJgBRKuAQgUEqkBChxxK2ZZUzQwMDF1ZjBRTEVZazJleDJ2UWpqN3c9EiRiZjAzZDA5OC1lOWQ2LTQ0OGItYjU5Yy04NzUwMzk0MGZiN2MYACACKAIwxsHC9c4yOMXqmPuzMkCjrsD1zjJKHGdWTG1MTGVzVE9VUENESFFMS254OXc1Z0hnbz1aICIe/7JUM1BNNEhxb3oyaGpFYk9wZ1ZIU2c3Ynp1TjQ9ZcjzP7vCPgJgBRKtAQgTEqgBChwwSERNVHhxZFBSaXB2RG1FT0w2WU1lTFpOUjg9EiQ5YmNiZGI3MC1hNDFhLTQ1YzItYmU2MC01ODc3MjZkZjZiYzIYACACKAIwwMHC9c4yOIrPmPuzMkCjrsD1zjJKHEJKYXMxTFdwSldqL1RnRHRkM1dOeUE1R3Uzbz1aHyId/2VHTVBvQmVlWUExYVI5dDNOVkNiN210eDcvOD1lU/GRiMI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDFmNTJkZjE0LTBlYWEtNWFlMS05Mzk5LTIwYTBhMWYxZGNjNBgAIAAoADCSl5q2gDI4h5+atoAyQIefmraAMkoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgIEqcBChxBM1hiejk3NWQwLzFhUVhoSFBJVnlkN2twdUE9EiRhMmVjN2I1ZC0xNmJmLTQ4MTEtYjVjZi1lZmU0ODc5ZmY0NDMYACACKAIwv8HC9c4yOPHOmPuzMkCersD1zjJKHDNDWmRFL0tNdUlPNzhrakFObUkxVUw2RjNKbz1aHiIcVUJ3QzQ0TDlqWkx3M24wVGVGaSt4Uk1ZOElBPWUGKLUbwj4CYAUSrQEICxKoAQocZVF3SGdzRnZSck5FT2ovc250TzgvN01iYlFzPRIkNGUxZDVlNTQtZTliZi00NmMzLTk5MjYtMmMyNzU0NGNkOGViGAAgAigCMMvBwvXOMjjXzpj7szJAn67A9c4yShxLTStxRWpmYldlbzB6NFB1RFlTKzhVTittSWs9Wh8iHd1MajlwZmJhVkVRTUI5V3dhVlMweCtZV0pwWGs9ZXvFuWTCPgJgBRKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQyZWU1ZWUzNy1iYWI5LTU0ZDktYWZiNi0wNTZlZjk5NDJjYzkYACAAKAAwjZeatoAyOMaemraAMkDGnpq2gDJKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAAwADgA",
    "version": 1
 }

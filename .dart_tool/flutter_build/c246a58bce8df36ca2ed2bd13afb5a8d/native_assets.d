@@ -1,0 +1,1 @@
+ D:\\Semester\ VIII\\TA\ 2\\project_kelompok9\\project_kelompok9\\.dart_tool\\flutter_build\\c246a58bce8df36ca2ed2bd13afb5a8d\\native_assets.yaml: 

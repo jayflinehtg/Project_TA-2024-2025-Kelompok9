@@ -3,8 +3,33 @@ import 'package:project_kelompok9/login.dart';  // Ganti dengan file yang sesuai
 import 'home.dart';
 import 'detail.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
+
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  final TextEditingController _searchController = TextEditingController();
+  List<String> herbalPlants = [
+    'Jahe', 'Kunyit', 'Temulawak', 'Sambiloto'
+  ];
+  List<String> filteredPlants = [];
+
+  @override
+  void initState() {
+    super.initState();
+    filteredPlants = List.from(herbalPlants);
+  }
+
+  void _filterSearch(String query) {
+    setState(() {
+      filteredPlants = herbalPlants
+          .where((plant) => plant.toLowerCase().contains(query.toLowerCase()))
+          .toList();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +51,27 @@ class HomePage extends StatelessWidget {
                 color: Color(0xFF498553),
               ),
             ),
+            const SizedBox(height: 10),
+            TextField(
+              controller: _searchController,
+              decoration: InputDecoration(
+                hintText: 'Cari tanaman...',
+                prefixIcon: const Icon(Icons.search, color: Color(0xFF498553)),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8.0),
+                  borderSide: const BorderSide(color: Color(0xFF498553)),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(8.0),
+                  borderSide: const BorderSide(color: Color(0xFF498553), width: 2),
+                ),
+              ),
+              onChanged: _filterSearch,
+            ),
             const SizedBox(height: 16),
             Expanded(
               child: ListView.builder(
-                itemCount: 4, // Jumlah item tanaman herbal
+                itemCount: filteredPlants.length,
                 itemBuilder: (context, index) {
                   return Card(
                     margin: const EdgeInsets.symmetric(vertical: 8),
@@ -39,53 +81,32 @@ class HomePage extends StatelessWidget {
                     elevation: 5,
                     child: ListTile(
                       contentPadding: const EdgeInsets.all(16.0),
-                      leading: Icon(
-                        Icons.grass, // Ikon tanaman herbal
+                      leading: const Icon(
+                        Icons.grass,
                         size: 50,
                         color: Color(0xFF498553),
                       ),
                       title: Text(
-                        'Tanaman Herbal',
-                        style: TextStyle(
+                        filteredPlants[index],
+                        style: const TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF498553),
                         ),
                       ),
                       subtitle: Row(
-                        children: [
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
-                            size: 16,
-                          ),
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
-                            size: 16,
-                          ),
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
-                            size: 16,
-                          ),
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
-                            size: 16,
-                          ),
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
-                            size: 16,
-                          ),
-                        ],
+                        children: List.generate(5, (i) => const Icon(
+                              Icons.star,
+                              color: Colors.yellow,
+                              size: 16,
+                            )),
                       ),
                       trailing: TextButton(
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => DetailPage()), // Ganti dengan halaman detail yang sesuai
+                            MaterialPageRoute(
+                                builder: (context) => DetailPage()),
                           );
                         },
                         child: const Text(
