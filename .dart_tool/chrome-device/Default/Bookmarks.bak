@@ -1,432 +1,143 @@
 {
-   "checksum": "18d94d0a83328c38dea78e38e91ff69f",
+   "checksum": "f1d73a7a50b1e5ef7a9d36b4ae3252dc",
    "roots": {
       "bookmark_bar": {
          "children": [ {
-            "date_added": "13383627671219860",
+            "date_added": "13383647466589302",
             "date_last_used": "0",
-            "guid": "b17c0187-912e-46a9-acfc-acdf02ad2555",
-            "id": "48",
-            "name": "ASUS Software Portal - Exclusive technology",
-            "show_icon": false,
-            "source": "oem_preload",
-            "type": "url",
-            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383627671219406",
-            "date_last_used": "0",
-            "guid": "c53a801c-8538-478c-8de1-a253ae622c4e",
-            "id": "47",
-            "name": "MyASUS Software - Get the best from ASUS PC",
-            "show_icon": false,
-            "source": "oem_preload",
-            "type": "url",
-            "url": "https://www.asus.com/ASUS-Software/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383627065433742",
-            "date_last_used": "0",
-            "guid": "d3cab03e-f054-4bc4-bfb4-7d41130c7cf5",
-            "id": "44",
-            "name": "ASUS Software Portal - Exclusive technology",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383627065433516",
-            "date_last_used": "0",
-            "guid": "0c81c02c-61ce-45b1-8805-9c9e5d915355",
-            "id": "43",
-            "name": "MyASUS Software - Get the best from ASUS PC",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/ASUS-Software/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383626795730125",
-            "date_last_used": "0",
-            "guid": "ca884dee-0157-4839-a423-0ff93b50dd69",
-            "id": "40",
-            "name": "ASUS Software Portal - Exclusive technology",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383626795729484",
-            "date_last_used": "0",
-            "guid": "568423fc-fd1c-45b7-86f4-a5c89e84728c",
-            "id": "39",
-            "name": "MyASUS Software - Get the best from ASUS PC",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/ASUS-Software/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383626623748199",
-            "date_last_used": "0",
-            "guid": "2539cf08-7acf-4fdd-8aca-c387c2650835",
-            "id": "36",
-            "name": "ASUS Software Portal - Exclusive technology",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
-            "visit_count": 0
-         }, {
-            "date_added": "13383626623747351",
-            "date_last_used": "0",
-            "guid": "5a27c6ec-68c5-4f98-8acd-a4dd9d4b219c",
-            "id": "35",
-            "name": "MyASUS Software - Get the best from ASUS PC",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.asus.com/ASUS-Software/",
-            "visit_count": 0
-         }, {
-            "date_added": "13295765895198584",
-            "date_last_used": "0",
-            "guid": "a2ec7b5d-16bf-4811-b5cf-efe4879ff443",
-            "id": "8",
-            "name": "SSCASN DIKDIN",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://dikdin-daftar.bkn.go.id/dokumen",
-            "visit_count": 0
-         }, {
-            "date_added": "13297771442708754",
-            "date_last_used": "0",
-            "guid": "c4cc6d64-6434-4434-8be8-ad04b38ad0ed",
-            "id": "9",
-            "name": "SSCASN DIKDIN",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://dikdin-daftar.bkn.go.id/resume",
-            "visit_count": 0
-         }, {
-            "date_added": "13298125077012442",
-            "date_last_used": "0",
-            "guid": "d2639c49-e697-4e94-8ebc-e3736fc075e0",
-            "id": "10",
-            "name": "SPCP IPDN 2022",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://spcp.ipdn.ac.id/2022/#",
-            "visit_count": 0
-         }, {
-            "date_added": "13298296983237713",
-            "date_last_used": "0",
-            "guid": "4e1d5e54-e9bf-46c3-9926-2c27544cd8eb",
-            "id": "11",
-            "name": "Simulasi CAT",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://cat.bkn.go.id/simulasi/info.php",
-            "visit_count": 0
-         }, {
-            "date_added": "13309398815104613",
-            "date_last_used": "0",
-            "guid": "898fd1f7-782d-4ab7-8802-dcdd1d34acb9",
-            "id": "12",
-            "name": "Kumpulan Ayat Al Quran Tentang Akhlak Lengkap - FiqihMuslim.com",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.fiqihmuslim.com/2017/12/ayat-al-quran-tentang-akhlak.html",
-            "visit_count": 0
-         }, {
-            "date_added": "13309398819360410",
-            "date_last_used": "0",
-            "guid": "5d026e39-2414-42b4-ae71-17efd950a991",
-            "id": "13",
-            "name": "Brown and Beige Minimalist Modern illustrated Book Lover Presentation - Presentation",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAFOFUXY6yo/yw1nAtcFI9uYTmStscmCBw/edit",
-            "visit_count": 0
-         }, {
-            "date_added": "13311056488682949",
-            "date_last_used": "0",
-            "guid": "af1a6160-c50a-4723-9c6b-5cee06fdcb9e",
-            "id": "14",
-            "name": "a",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAFP6-XXvno/v-NoKi-e6WPRd8M_GClHig/edit?layoutQuery=Presentations+%2816%3A9%29",
-            "visit_count": 0
-         }, {
-            "date_added": "13312394458842778",
-            "date_last_used": "0",
-            "guid": "e22b9361-9886-4a6b-b3fc-d113b985630e",
-            "id": "15",
-            "name": "Blue Isometric Elements & Mockups Technology in Education Technology Presentation - Presentation",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAFRV6c6dZg/q5ZWEw1tRGzuNjVqDwbfWw/edit",
-            "visit_count": 0
-         }, {
-            "date_added": "13357480956671084",
-            "date_last_used": "0",
-            "guid": "c39a5654-acbb-42da-a45f-158cbaa80fac",
-            "id": "16",
-            "name": "",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.msn.com/id-id/ekonomi/daftarpantau?id=aqhmww&tab=Markets&ocid=msedgntp&cvid=042138b9782f4e94811a46fe812c9611",
-            "visit_count": 0
-         }, {
-            "date_added": "13313777508599427",
-            "date_last_used": "0",
-            "guid": "99668c21-d91a-4e40-b038-9053336472bc",
-            "id": "17",
-            "name": "yt - Search",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.bing.com/search?q=yt&cvid=feabe52e053e43ef85908c8cc583aa90&aqs=edge.0.69i59l2j0l5j69i60j69i61.930j0j1&pglt=171&FORM=ANNTA1&PC=ASTS",
-            "visit_count": 0
-         }, {
-            "date_added": "13322125609826057",
-            "date_last_used": "0",
-            "guid": "a66598d5-fff1-440b-ab33-2c0bb2841269",
-            "id": "18",
-            "name": "YouTube",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.youtube.com/?x-yt-cl=84503534&x-yt-ts=1421914688",
-            "visit_count": 0
-         }, {
-            "date_added": "13324102533733829",
-            "date_last_used": "0",
-            "guid": "9bcbdb70-a41a-45c2-be60-587726df6bc2",
-            "id": "19",
-            "name": "Rumah Kreatif Toba - Dashboard",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "http://kreatif.tobakab.go.id/keranjang",
-            "visit_count": 0
-         }, {
-            "date_added": "13345870025935633",
-            "date_last_used": "0",
-            "guid": "bf03d098-e9d6-448b-b59c-87503940fb7c",
-            "id": "20",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "gabrielhtg/project-spmb-pabwe at dev",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://github.com/gabrielhtg/project-spmb-pabwe/tree/dev",
-            "visit_count": 0
-         }, {
-            "date_added": "13353133227998523",
-            "date_last_used": "0",
-            "guid": "c901b95c-e8ba-4934-adad-ea184efe7c46",
-            "id": "21",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "DOKU",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://doku.darwinbox.com/ms/candidate/careers/a65af9d7eda2c6?apply=1",
-            "visit_count": 0
-         }, {
-            "date_added": "13355996509078681",
-            "date_last_used": "0",
-            "guid": "846930da-88eb-455e-912d-3e9ca7aaf1ae",
-            "id": "22",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Commits · boysitorus/FrontEnd-FRK",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://github.com/boysitorus/FrontEnd-FRK/commits/scrum_team_2/",
-            "visit_count": 0
-         }, {
-            "date_added": "13360597331118642",
-            "date_last_used": "0",
-            "guid": "2373230d-dafb-4e6a-ae49-73d72bed798e",
+            "guid": "bb09d81e-45e1-4fb3-9a35-fb9480011770",
             "id": "23",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Pink and yellow Understanding Cats modern presentation - Presentation",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAF7-qP49Sw/UxHy_EuuYJx1D4Gosg9wTQ/edit",
-            "visit_count": 0
-         }, {
-            "date_added": "13362462632541468",
-            "date_last_used": "0",
-            "guid": "1d483799-bdae-4ded-b33f-8a4a72214d8e",
-            "id": "24",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "e153b6e1b2b5eb074bc747f953615932",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://apipuro.del.ac.id/v1/file/e153b6e1b2b5eb074bc747f953615932",
-            "visit_count": 0
-         }, {
-            "date_added": "13368085765333557",
-            "date_last_used": "0",
-            "guid": "b51d8045-663a-46ff-af20-5e01f4d83332",
-            "id": "25",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "(92) WhatsApp",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://web.whatsapp.com/",
-            "visit_count": 0
-         }, {
-            "date_added": "13372219204883225",
-            "date_last_used": "0",
-            "guid": "ea0bea49-221e-4a90-9888-cffd1ec927c9",
-            "id": "26",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Company Profile - Presentation",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAGSMd-DJOI/oEZs91Fei9Q9IWOxmSvh3w/edit",
-            "visit_count": 0
-         }, {
-            "date_added": "13374648441409195",
-            "date_last_used": "0",
-            "guid": "fe3fd6c9-7e9d-4a13-b707-179dda455c8a",
-            "id": "27",
-            "name": "fima",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://fimatest-qa.fifgroup.co.id:8443/fima_obs/dashboard",
-            "visit_count": 0
-         }, {
-            "date_added": "13376647820438629",
-            "date_last_used": "0",
-            "guid": "556c0767-4b86-43b7-bc85-c9e6674ab456",
-            "id": "28",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "TA - Google Drive",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://drive.google.com/drive/folders/1D20Na_zva9MA-WdtcuKStyxc7t_XLf7m",
-            "visit_count": 0
-         }, {
-            "date_added": "13377058704201354",
-            "date_last_used": "0",
-            "guid": "a7f75c11-4b10-40c0-af20-542a0b91f9c9",
-            "id": "29",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "FIFGROUP - HCMS",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "http://10.17.128.79:28080/hcms-test/",
-            "visit_count": 0
-         }, {
-            "date_added": "13378881935657253",
-            "date_last_used": "0",
-            "guid": "01b1da82-e500-4809-bd53-7fa4e8483f44",
-            "id": "30",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Blue and White Modern Geometric Simple Photo Business Company Presentation - Presentation - Canva",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://www.canva.com/design/DAGZckOitf8/0KDYPhA3Xl67-rt_7MSvqQ/edit",
-            "visit_count": 0
-         }, {
-            "date_added": "13379130605886175",
-            "date_last_used": "0",
-            "guid": "784f8585-0801-48a7-890f-799c96818baf",
-            "id": "31",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Google Terjemahan",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://translate.google.com/?sl=auto&tl=en&text=aspek%20pasar%2C%20aspek%20keuangan%2C%20aspek%20teknologi%2C%20aspek%20sumber%20daya%20manusia%2C%20serta%20aspek%20struktur%20dan%20proses.%20&op=translate",
-            "visit_count": 0
-         }, {
-            "date_added": "13380438323235810",
-            "date_last_used": "0",
-            "guid": "967a7920-0d47-406b-a732-72919e385d56",
-            "id": "32",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Revisi_Sidang_TA-2023/2024-07 - Google Dokumen",
-            "show_icon": false,
-            "source": "unknown",
-            "type": "url",
-            "url": "https://docs.google.com/document/d/1cg8cCUzL4-RXue5SLSJZHujyiobrk-G1Lz1qbpGTAiI/edit?tab=t.0",
-            "visit_count": 0
-         }, {
-            "date_added": "13383626425199336",
-            "date_last_used": "0",
-            "guid": "2916146c-b0d1-4453-9ce3-0ecd9931fddf",
-            "id": "7",
             "name": "ASUS Software Portal - Exclusive technology",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/Software-and-Innovations-Portal/",
             "visit_count": 0
          }, {
-            "date_added": "13383626425198151",
+            "date_added": "13383647466589078",
             "date_last_used": "0",
-            "guid": "f65d151b-695f-4e3c-9c95-21b88f1175ee",
-            "id": "6",
+            "guid": "93e0c8f3-4803-412b-bedf-ee1cfdf6708e",
+            "id": "22",
             "name": "MyASUS Software - Get the best from ASUS PC",
             "show_icon": false,
-            "source": "unknown",
+            "source": "oem_preload",
             "type": "url",
             "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383647466588096",
+            "date_last_used": "0",
+            "guid": "9622b7c2-266c-41c1-a227-84aa547d532f",
+            "id": "21",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=246814",
+            "visit_count": 0
+         }, {
+            "date_added": "13383647042474816",
+            "date_last_used": "0",
+            "guid": "bf327b8d-8092-4ade-9317-c0190185b813",
+            "id": "18",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383647042474651",
+            "date_last_used": "0",
+            "guid": "1cc5ab7f-050c-44f0-9cfa-be91b85f8351",
+            "id": "17",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383647042468913",
+            "date_last_used": "0",
+            "guid": "93b8a22a-6cb4-40c8-8573-c7360385a17f",
+            "id": "16",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=246814",
+            "visit_count": 0
+         }, {
+            "date_added": "13383645743095349",
+            "date_last_used": "0",
+            "guid": "ef371fa4-e842-4b83-9e47-9e73c5a37e6a",
+            "id": "13",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383645743095132",
+            "date_last_used": "0",
+            "guid": "f0119894-a6fb-4030-ba98-641ad1e2a395",
+            "id": "12",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383645743093016",
+            "date_last_used": "0",
+            "guid": "b086ea5f-b5a7-4a1a-9c95-3f4541bee63d",
+            "id": "11",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=246814",
+            "visit_count": 0
+         }, {
+            "date_added": "13383644150279887",
+            "date_last_used": "0",
+            "guid": "1e2bd335-008a-47d3-a6d5-9990908508c6",
+            "id": "8",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383644150279777",
+            "date_last_used": "0",
+            "guid": "51e120a6-a640-4fa0-a41b-aebb439c2d99",
+            "id": "7",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13383644150279501",
+            "date_last_used": "0",
+            "guid": "2c91741d-e9b3-4c9a-86e1-1e54f483b662",
+            "id": "6",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=246814",
             "visit_count": 0
          } ],
-         "date_added": "13383626424589357",
+         "date_added": "13383644150013546",
          "date_last_used": "0",
-         "date_modified": "13383627671219860",
+         "date_modified": "13383647466589302",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Favorites bar",
@@ -435,7 +146,7 @@
       },
       "other": {
          "children": [  ],
-         "date_added": "13383626424589364",
+         "date_added": "13383644150013549",
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
@@ -446,7 +157,7 @@
       },
       "synced": {
          "children": [  ],
-         "date_added": "13383626424589370",
+         "date_added": "13383644150013552",
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
@@ -456,5 +167,6 @@
          "type": "folder"
       }
    },
+   "sync_metadata": "CjEKDgiIgQISCDJoRzeIAQAAEgAqGGZxclNaamNpRENHN0RkaDJSUCtqbWc9PUgDoAYHEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGY4MjczODI1LTY0NDctNWFlZC04NDU3LTRkZWU3MTQ0NDI4OBgAIAAoADCx0J26gzE4hNeduoMxQITXnbqDMUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQxOTU2MWJkZC0wZmY2LTUwODYtYjhmMi05MjRhNzI2NzgzYmYYACAAKAAwrNCduoMxOJXWnbqDMUCV1p26gzFKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNjVjZjVmMjgtMjM1MC01NWQ5LThjMzItMWUyZjNhZmVjY2ExGAAgACgAMKvQnbqDMTj/1Z26gzFA/9WduoMxShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAMAA4AA==",
    "version": 1
 }
