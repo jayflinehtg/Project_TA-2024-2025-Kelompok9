@@ -10,8 +10,8 @@ class _DetailPageState extends State<DetailPage> {
   final String plantContent = 'Kandungan Tanaman Kandungan Tanaman Kandungan Tanaman';
   final String benefits = 'Manfaat Tanaman, Manfaat Tanaman, Manfaat Tanaman';
   final List<String> process = ['Cara pengolahan 1', 'Cara pengolahan 2'];
-  final String imageUrl = ''; // Add image URL if available
-
+  final String imageUrl = '';
+  bool isLiked = false;
   List<Map<String, String>> reviews = [
     {
       'username': 'Nama Pengguna 1',
@@ -23,11 +23,6 @@ class _DetailPageState extends State<DetailPage> {
       'review': 'Pengguna 2 Membalas informasi Sebelumnya, Pengguna 2 Membalas informasi Sebelumnya',
       'date': '08 Jan 2025',
     },
-    {
-      'username': 'Nama Pengguna 3',
-      'review': 'Pengguna 3 Membalas informasi Sebelumnya, Pengguna 3 Membalas informasi Sebelumnya',
-      'date': '09 Jan 2025',
-    },
   ];
 
   final TextEditingController _commentController = TextEditingController();
@@ -37,9 +32,9 @@ class _DetailPageState extends State<DetailPage> {
     if (newComment.isNotEmpty) {
       setState(() {
         reviews.add({
-          'username': 'Pengguna Baru', // Bisa diganti dengan nama pengguna yang login
+          'username': 'Pengguna Baru',
           'review': newComment,
-          'date': '10 Jan 2025', // Bisa diganti dengan tanggal sekarang secara otomatis
+          'date': '10 Jan 2025',
         });
         _commentController.clear();
       });
@@ -52,6 +47,22 @@ class _DetailPageState extends State<DetailPage> {
       appBar: AppBar(
         title: const Text('Postingan'),
         backgroundColor: const Color(0xFF9ACAA1),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.favorite_border, color: Colors.grey),
+            onPressed: () {
+              setState(() {
+                isLiked = !isLiked;
+              });
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.share, color: Colors.blue),
+            onPressed: () {
+              // Implement share functionality
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -62,7 +73,6 @@ class _DetailPageState extends State<DetailPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Plant details section
                     const CircleAvatar(
                       radius: 30,
                       backgroundColor: Colors.grey,
@@ -82,33 +92,20 @@ class _DetailPageState extends State<DetailPage> {
                     const Text('Cara Pengolahan:', style: TextStyle(fontWeight: FontWeight.bold)),
                     for (var item in process) Text(item),
                     const SizedBox(height: 16),
-
-                    // Image section (if available)
-                    imageUrl.isNotEmpty
-                        ? Image.network(imageUrl)
-                        : const Icon(Icons.image, size: 100),
-
+                    imageUrl.isNotEmpty ? Image.network(imageUrl) : const Icon(Icons.image, size: 100),
                     const SizedBox(height: 16),
-
-                    // Rating and Time Section
                     Row(
                       children: [
-                        const Text(
-                          '00:21  07 Jan 2025',
-                          style: TextStyle(fontSize: 12, color: Colors.grey),
-                        ),
+                        const Text('00:21  07 Jan 2025', style: TextStyle(fontSize: 12, color: Colors.grey)),
                         const Spacer(),
                         const Icon(Icons.star, color: Colors.yellow, size: 20),
                         const Icon(Icons.star, color: Colors.yellow, size: 20),
                         const Icon(Icons.star, color: Colors.yellow, size: 20),
                         const Icon(Icons.star, color: Colors.yellow, size: 20),
                         const Icon(Icons.star_border, color: Colors.yellow, size: 20),
-                        const SizedBox(width: 8),
                       ],
                     ),
                     const SizedBox(height: 16),
-
-                    // Reviews section
                     const Text('Review Pengguna Lainnya:', style: TextStyle(fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     for (var review in reviews)

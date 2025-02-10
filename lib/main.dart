@@ -32,7 +32,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   static final List<Widget> _widgetOptions = <Widget>[
     HomePage(),
-    Text('Search'),
     Text('TambahDataTanamanHerbal'), // Tambah halaman Tambah Data Tanaman Herbal
     LoginPage(),
   ];
@@ -55,10 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add),
