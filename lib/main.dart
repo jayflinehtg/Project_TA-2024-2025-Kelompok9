@@ -1,37 +1,44 @@
 import 'package:flutter/material.dart';
 import 'package:project_kelompok9/login.dart';
+import 'home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tanaman Herbal',
       theme: ThemeData(
-        primarySwatch: Colors.green,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+        home: const MyHomePage(title: 'Tanaman Herbal'),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key, required this.title}) : super(key: key);
+
+  final String title;
+
   @override
-  _HomePageState createState() => _HomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
-  static const List<Widget> _widgetOptions = <Widget>[
-    Text('Home'),
-    Text('Search'),
-    Text('Tambah Data'),
-    Text('Profile'),
+  static List<Widget> _widgetOptions = <Widget>[
+    HomePage(),
+    const Text('Search'),
+    const Text('Tambah Data'),
+    // Ganti dengan widget Login
+    const LoginPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -43,73 +50,20 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Jelajahi Informasi'),
-        centerTitle: true,
-      ),
-      body: _selectedIndex == 0
-          ? Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: ListView.builder(
-                itemCount: 4,
-                itemBuilder: (context, index) {
-                  return Card(
-                    margin: EdgeInsets.symmetric(vertical: 8),
-                    child: ListTile(
-                      leading: Icon(
-                        Icons.nature,
-                        size: 40,
-                        color: Colors.green,
-                      ),
-                      title: Text(
-                        'Tanaman Herbal ${index + 1}',
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      subtitle: Row(
-                        children: List.generate(5, (index) {
-                          return Icon(
-                            Icons.star,
-                            size: 20,
-                            color: index < 4
-                                ? Colors.orange
-                                : Colors.grey[300],
-                          );
-                        }),
-                      ),
-                      trailing: TextButton(
-                        onPressed: () {
-                          // Navigasi ke halaman detail
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => DetailPage(), // Ganti dengan halaman detail
-                            ),
-                          );
-                        },
-                        child: Text(
-                          'Lihat Detail',
-                          style: TextStyle(
-                            color: Colors.blue,
-                          ),
-                        ),
-                      ),
-                    ),
-                  );
-                },
-              ),
-            )
-          : _widgetOptions.elementAt(_selectedIndex), // Menampilkan halaman sesuai index
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        selectedItemColor: Color(0xFF498553),
-        onTap: _onItemTapped,
-        items: const <BottomNavigationBarItem>[
+        appBar: AppBar(
+          automaticallyImplyLeading: false,
+        ),
+        
+        body: Center(
+          child: _widgetOptions.elementAt(_selectedIndex),
+        ),
+        
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed, // Tambahkan ini
+          items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Dashboard',
+            label: 'Home', 
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
@@ -123,21 +77,38 @@ class _HomePageState extends State<HomePage> {
             icon: Icon(Icons.person),
             label: 'Profile',
           ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.person),
+          //   label: 'Profil',
+          // ),
         ],
+      currentIndex: _selectedIndex,
+      selectedItemColor: Color(0xFF498553),
+      onTap: _onItemTapped,
       ),
     );
   }
 }
 
-class DetailPage extends StatelessWidget {
+class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Detail Tanaman Herbal'),
-      ),
-      body: Center(
-        child: Text('Detail informasi tentang tanaman herbal.'),
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text('Profile Page'),
+          SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => LoginPage()),
+              );
+            },
+            child: Text('Login'),
+          ),
+        ],
       ),
     );
   }
