@@ -26,7 +26,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFDDEEE0),
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
@@ -49,7 +49,7 @@ class _ProfilePageState extends State<ProfilePage> {
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
-                color: Colors.black,
+                color: Color.fromARGB(255, 50, 115, 63),
               ),
             ),
             const SizedBox(height: 16),
@@ -68,7 +68,7 @@ class _ProfilePageState extends State<ProfilePage> {
             _buildReadOnlyTextField('Email'),
             _buildReadOnlyTextField('Public Key'),
             _buildFilePickerField(),
-            _buildButton('Simpan', () {}),
+            _buildButton('Simpan', () {}, 40),
             const SizedBox(height: 24),
             _buildPasswordField('Kata Sandi Lama', _isPasswordVisibleOld, () {
               setState(() {
@@ -80,7 +80,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 _isPasswordVisibleNew = !_isPasswordVisibleNew;
               });
             }),
-            _buildButton('Ubah Password', () {}),
+            _buildButton('Ubah Password', () {}, 40),
           ],
         ),
       ),
@@ -94,7 +94,7 @@ class _ProfilePageState extends State<ProfilePage> {
         decoration: InputDecoration(
           labelText: label,
           filled: true,
-          fillColor: Colors.white,
+          fillColor: Colors.grey[200],
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(8),
             borderSide: BorderSide.none,
@@ -115,7 +115,7 @@ class _ProfilePageState extends State<ProfilePage> {
               decoration: InputDecoration(
                 labelText: 'Foto Profile',
                 filled: true,
-                fillColor: Colors.white,
+                fillColor: Colors.grey[200],
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
                   borderSide: BorderSide.none,
@@ -141,7 +141,7 @@ class _ProfilePageState extends State<ProfilePage> {
         decoration: InputDecoration(
           labelText: label,
           filled: true,
-          fillColor: Colors.white,
+          fillColor: Colors.grey[200],
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(8),
             borderSide: BorderSide.none,
@@ -155,21 +155,23 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 
-  Widget _buildButton(String text, VoidCallback onPressed) {
+  Widget _buildButton(String text, VoidCallback onPressed, double height) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
-      child: ElevatedButton(
-        onPressed: onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: const Color(0xFF498553),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+      child: SizedBox(
+        height: height,
+        child: ElevatedButton(
+          onPressed: onPressed,
+          style: ElevatedButton.styleFrom(
+            backgroundColor: const Color(0xFF498553),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
           ),
-          minimumSize: const Size(double.infinity, 45),
-        ),
-        child: Text(
-          text,
-          style: const TextStyle(color: Colors.white, fontSize: 16),
+          child: Text(
+            text,
+            style: const TextStyle(color: Colors.white, fontSize: 16),
+          ),
         ),
       ),
     );

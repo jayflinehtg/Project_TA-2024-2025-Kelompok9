@@ -10,7 +10,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          color: Color(0xffd7eadd),
+          color: Colors.white, // Mengubah latar belakang menjadi putih
         ),
         child: Center(
           child: Padding(
@@ -33,7 +33,7 @@ class LoginPage extends StatelessWidget {
                   width: 500,
                   height: 360,
                   decoration: BoxDecoration(
-                    color: Color(0xFF9ACAA1),
+                    color: const Color(0xFF9ACAA1),
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Column(
