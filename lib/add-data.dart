@@ -1,52 +1,168 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'dart:typed_data';
 import 'dart:io';
 
-class TambahDataTanamanHerbal extends StatefulWidget {
-  @override
-  _TambahDataTanamanHerbalState createState() => _TambahDataTanamanHerbalState();
+void main() {
+  runApp(MyApp());
 }
 
-class _TambahDataTanamanHerbalState extends State<TambahDataTanamanHerbal> {
-  final _formKey = GlobalKey<FormState>();
-  final TextEditingController _namaTanamanController = TextEditingController();
-  final TextEditingController _namaLatinController = TextEditingController();
-  final TextEditingController _komposisiController = TextEditingController();
-  final TextEditingController _kegunaanController = TextEditingController();
-  final TextEditingController _caraPengolahanController = TextEditingController();
-  File? _gambarTanaman;
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Tambah Data Tanaman',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: AddPlantForm(),
+    );
+  }
+}
 
-  Future<void> _pilihGambar(ImageSource source) async {
-    final pickedFile = await ImagePicker().pickImage(source: source);
-    if (pickedFile != null) {
+class AddPlantForm extends StatefulWidget {
+  @override
+  _AddPlantFormState createState() => _AddPlantFormState();
+}
+
+class _AddPlantFormState extends State<AddPlantForm> {
+  final _formKey = GlobalKey<FormState>();
+  TextEditingController _plantNameController = TextEditingController();
+  TextEditingController _latinNameController = TextEditingController();
+  TextEditingController _compositionController = TextEditingController();
+  TextEditingController _benefitController = TextEditingController();
+  TextEditingController _processingController = TextEditingController();
+  XFile? _imageFile;
+  Uint8List? _imageBytes; // Simpan data gambar sebagai bytes
+
+  List<String> _compositionList = [];
+  List<String> _benefitList = [];
+  List<String> _processingList = [];
+
+  Future<void> _pickImage() async {
+    final ImagePicker _picker = ImagePicker();
+    final XFile? image = await _picker.pickImage(source: ImageSource.gallery);
+
+    if (image != null) {
+      final bytes = await image.readAsBytes(); // Konversi XFile ke bytes
       setState(() {
-        _gambarTanaman = File(pickedFile.path);
+        _imageFile = image;
+        _imageBytes = bytes; // Simpan bytes untuk ditampilkan
       });
     }
   }
 
-  void _simpanData() {
-    if (_formKey.currentState!.validate()) {
-      print('Nama Tanaman: ${_namaTanamanController.text}');
-      print('Nama Latin: ${_namaLatinController.text}');
-      print('Komposisi: ${_komposisiController.text}');
-      print('Kegunaan: ${_kegunaanController.text}');
-      print('Cara Pengolahan: ${_caraPengolahanController.text}');
-      print('Gambar Tanaman: ${_gambarTanaman?.path ?? 'Belum ada gambar'}');
-    }
+  void _addToField(String value, List<String> list) {
+    setState(() {
+      list.add(value);
+    });
   }
 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Tambah Data Tanaman'),
+        backgroundColor: const Color(0xFF9ACAA1),
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Form(
+              key: _formKey,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  _buildTextField('Nama Tanaman', _plantNameController),
+                  _buildTextField('Nama Latin Tanaman', _latinNameController),
+                  _buildTextFieldMultiLine('Komposisi/Kandungan',
+                      _compositionController, _compositionList),
+                  _buildTextFieldMultiLine(
+                      'Manfaat Tanaman', _benefitController, _benefitList),
+                  _buildTextFieldMultiLine('Cara Pengolahan',
+                      _processingController, _processingList),
+
+                  SizedBox(height: 16),
+                  Text(
+                    'Gambar Tanaman',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(height: 8),
+
+                  // Tampilkan gambar jika ada
+                  if (_imageBytes != null)
+                    Column(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.memory(
+                            _imageBytes!,
+                            width: double.infinity,
+                            height: 200,
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                        SizedBox(height: 8),
+                      ],
+                    ),
+
+                  ElevatedButton.icon(
+                    onPressed: _pickImage,
+                    icon: Icon(Icons.image, color: Colors.white),
+                    label: Text('Pilih Gambar',
+                        style: TextStyle(color: Colors.white)),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green[700],
+                      padding:
+                          EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+                    ),
+                  ),
+                  SizedBox(height: 16),
+                  Center(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        if (_formKey.currentState!.validate()) {
+                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                            content: Text('Data berhasil disimpan!'),
+                          ));
+                        }
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.green[700],
+                      ),
+                       child: Text('Simpan', style: TextStyle(color: Colors.white)),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // Fungsi untuk membuat TextField umum
   Widget _buildTextField(String label, TextEditingController controller) {
-    return Card(
-      elevation: 3,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        child: TextFormField(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(label,
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+        TextFormField(
           controller: controller,
           decoration: InputDecoration(
-            labelText: label,
-            border: InputBorder.none,
+            filled: true,
+            fillColor: Colors.white,
+            border: OutlineInputBorder(),
+            hintText: 'Masukkan $label',
           ),
           validator: (value) {
             if (value == null || value.isEmpty) {
@@ -55,106 +171,37 @@ class _TambahDataTanamanHerbalState extends State<TambahDataTanamanHerbal> {
             return null;
           },
         ),
-      ),
+        SizedBox(height: 16),
+      ],
     );
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Tambah Data Tanaman Herbal',
-          style: TextStyle(
-            // fontSize: 24,
-            fontWeight: FontWeight.bold,
+  // Fungsi untuk membuat TextField multi-line dengan list
+  Widget _buildTextFieldMultiLine(
+      String label, TextEditingController controller, List<String> list) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(label,
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+        TextField(
+          controller: controller,
+          decoration: InputDecoration(
+            filled: true,
+            fillColor: Colors.white,
+            border: OutlineInputBorder(),
+            hintText: 'Masukkan $label',
           ),
+          maxLines: 5,
+          onSubmitted: (value) {
+            if (value.isNotEmpty) {
+              _addToField(value, list);
+              controller.clear();
+            }
+          },
         ),
-        backgroundColor: const Color(0xFF9ACAA1),
-      ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              _buildTextField('Nama Tanaman Herbal', _namaTanamanController),
-              _buildTextField('Nama Latin Tanaman', _namaLatinController),
-              _buildTextField('Komposisi/Kandungan', _komposisiController),
-              _buildTextField('Kegunaan Tanaman', _kegunaanController),
-              _buildTextField('Cara Pengolahan', _caraPengolahanController),
-              const SizedBox(height: 16),
-              GestureDetector(
-                onTap: () => _pilihGambar(ImageSource.gallery),
-                child: Container(
-                  height: 180,
-                  decoration: BoxDecoration(
-                    color: Colors.grey[200],
-                    borderRadius: BorderRadius.circular(10),
-                    image: _gambarTanaman != null
-                        ? DecorationImage(image: FileImage(_gambarTanaman!), fit: BoxFit.cover)
-                        : null,
-                  ),
-                  child: _gambarTanaman == null
-                      ? const Center(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Icon(Icons.image, size: 50, color: Colors.grey),
-                              Text('Pilih Gambar', style: TextStyle(color: Colors.grey)),
-                            ],
-                          ),
-                        )
-                      : null,
-                ),
-              ),
-              const SizedBox(height: 16),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  ElevatedButton.icon(
-                    onPressed: () => _pilihGambar(ImageSource.camera),
-                    icon: const Icon(Icons.camera_alt),
-                    label: const Text('Foto'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Color(0xFF498553),
-                      foregroundColor: Colors.white,
-                    ),
-                  ),
-                  ElevatedButton.icon(
-                    onPressed: () => _pilihGambar(ImageSource.gallery),
-                    icon: const Icon(Icons.image),
-                    label: const Text('Galeri'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Color(0xFF498553),
-                      foregroundColor: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 24),
-              ElevatedButton(
-                onPressed: _simpanData,
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(vertical: 12),
-                  backgroundColor: Color(0xFF498553),
-                  foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                ),
-                child: const Text('Simpan Data', style: TextStyle(fontSize: 16)),
-              ),
-            ],
-          ),
-        ),
-      ),
+        SizedBox(height: 16),
+      ],
     );
   }
-}
-
-void main() {
-  runApp(MaterialApp(
-    home: TambahDataTanamanHerbal(),
-    theme: ThemeData(primarySwatch: Colors.green),
-  ));
 }
