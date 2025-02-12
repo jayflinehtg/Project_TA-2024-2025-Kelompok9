@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 #Wed Feb 12 20:20:23 WIB 2025
 base.0=D\:\\TA\\Project_TA-2024-2025-Kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\TA\\Project_TA-2024-2025-Kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=D\:\\TA\\Project_TA-2024-2025-Kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.3=D\:\\TA\\Project_TA-2024-2025-Kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 base.4=D\:\\TA\\Project_TA-2024-2025-Kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+=======
+#Tue Feb 11 21:11:39 WIB 2025
+base.0=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

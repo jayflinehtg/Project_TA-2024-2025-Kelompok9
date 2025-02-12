@@ -54,7 +54,11 @@
                "signal_threshold": 0.5
             },
             "location": "omnibox",
+<<<<<<< HEAD
             "text": "__MSG_summarize_the_text_page_with_copilot_text__",
+=======
+            "text": "Summarize the page with Copilot",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          }, {
             "config": {
@@ -64,7 +68,11 @@
                "signal_threshold": 0.5
             },
             "location": "omnibox",
+<<<<<<< HEAD
             "text": "__MSG_summarize_the_video_page_with_copilot_text__",
+=======
+            "text": "General video highlights",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ],
          "triggers|flight:msUndersideGamingNotification": [ {
@@ -75,7 +83,11 @@
                "signal_name": "IsTwitchNonStreamPage",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_gaming_underside_notification_nonstream_text__",
+=======
+            "text": "Learn more about games and streams",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          }, {
             "config": {
@@ -85,7 +97,11 @@
                "signal_name": "IsTwitchSubPage",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_gaming_underside_notification_text__",
+=======
+            "text": "Learn more about this stream",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ],
          "triggers|flight:msUndersideMsnArticleNotification": [ {
@@ -98,7 +114,11 @@
                "signal_name": "IsMsnArticleUrlFromNtpP1P2",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_msn_article_underside_notification_text__",
+=======
+            "text": "Get AI-powered insights about this page",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ]
       },
@@ -401,7 +421,11 @@
                "signal_name": "Is1PGameDomain",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_notification_text_when_hit_domain__",
+=======
+            "text": "Click to play games in Microsoft Edge",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ],
          "triggers|flight:msHubAppsGamesGlobalPop": [ {
@@ -413,7 +437,11 @@
                "signal_name": "Is3PGameDomain",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_notification_text_when_hit_domain__",
+=======
+            "text": "Click to play games in Microsoft Edge",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ]
       },
@@ -1883,7 +1911,11 @@
                "signal_name": "IsTravelSidebarDomain",
                "signal_threshold": 0.5
             },
+<<<<<<< HEAD
             "text": "__MSG_notification_text__",
+=======
+            "text": "Plan your trip",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
             "type": "triggering_config"
          } ]
       },

@@ -4,6 +4,7 @@
             "outputFile": "com.example.project_kelompok9.app-mergeDebugResources-25:/values-gl/values-gl.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -22,6 +23,9 @@
                 },
                 {
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-gl\\values-gl.xml",
+=======
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-gl\\values-gl.xml",
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -36,6 +40,26 @@
                         "endColumns": "106,101,111,105",
                         "endOffsets": "885,987,1099,1205"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,783",
+                        "endColumns": "98,101,99,97,106,105,115,100",
+                        "endOffsets": "149,251,351,449,556,662,778,879"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,1210",
+                        "endColumns": "98,101,99,97,106,105,115,100",
+                        "endOffsets": "149,251,351,449,556,662,778,1306"
+                    }
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                 }
             ]
         }

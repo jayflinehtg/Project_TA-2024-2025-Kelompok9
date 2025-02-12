@@ -5,6 +5,7 @@
 5    <uses-sdk android:minSdkVersion="19" />
 6
 7    <application>
+<<<<<<< HEAD
 7-->C:\Users\Vivobook\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:3:3-7:17
 8        <activity
 8-->C:\Users\Vivobook\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:4:5-6:33
@@ -14,6 +15,17 @@
 10-->C:\Users\Vivobook\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:6:7-31
 11            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 11-->C:\Users\Vivobook\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:5:7-65
+=======
+7-->C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:3:3-7:17
+8        <activity
+8-->C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:4:5-6:33
+9            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+9-->C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:4:15-76
+10            android:exported="false"
+10-->C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:6:7-31
+11            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+11-->C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.14\android\src\main\AndroidManifest.xml:5:7-65
+>>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
 12    </application>
 13
 14</manifest>

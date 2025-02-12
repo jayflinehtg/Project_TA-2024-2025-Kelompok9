@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'register.dart';
+import 'profile.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -7,10 +8,9 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Mengubah latar belakang menjadi warna polos
       body: Container(
         decoration: const BoxDecoration(
-          color: Color(0xffd7eadd), // Warna latar belakang yang sama dengan register
+          color: Colors.white, // Mengubah latar belakang menjadi putih
         ),
         child: Center(
           child: Padding(
@@ -18,11 +18,6 @@ class LoginPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Image.asset(
-                //   'assets/tanaman_herbal', // Gambar di halaman login
-                //   height: 150,
-                //   width: 150,
-                // ),
                 const SizedBox(height: 16),
                 const Text(
                   'LOGIN',
@@ -33,18 +28,16 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 36),
-
                 Container(
                   padding: const EdgeInsets.all(36.0),
                   width: 500,
                   height: 360,
                   decoration: BoxDecoration(
-                    color: Color(0xFF9ACAA1),
+                    color: const Color(0xFF9ACAA1),
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Column(
                     children: [
-                      // Input Public Key
                       TextFormField(
                         decoration: InputDecoration(
                           labelText: 'Public Key',
@@ -57,7 +50,6 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 36),
-                      // Input Password
                       TextFormField(
                         obscureText: true,
                         decoration: InputDecoration(
@@ -71,20 +63,22 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 40),
-                      // Tombol Login
                       SizedBox(
                         width: 105,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor:
-                            const Color(0xFF498553), // Warna hijau
+                            backgroundColor: const Color(0xFF498553),
                             padding: const EdgeInsets.symmetric(vertical: 12),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(24),
                             ),
                           ),
                           onPressed: () {
-                            // Aksi saat tombol login ditekan
+                            // Navigasi ke ProfilePage setelah login
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const ProfilePage()),
+                            );
                           },
                           child: const Text(
                             'Login',
@@ -96,7 +90,6 @@ class LoginPage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // Tombol ke Register
                       TextButton(
                         onPressed: () {
                           Navigator.push(
