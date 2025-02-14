@@ -256,3 +256,9 @@
 2025-02-12 12:46:35.259: [INFO] BookmarkNodeAdded, ABU: 0
 2025-02-12 12:46:35.259: [INFO] OnDoneLoading sync enabled: 1
 2025-02-12 12:46:41.478: [INFO] Sync initialization duration: 5637ms
+2025-02-12 13:23:42.220: [INFO] VisibilityChanged: 0
+2025-02-12 13:23:42.627: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-02-12 13:23:42.629: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-12 13:23:42.629: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-12 13:23:42.629: [INFO] OnDoneLoading sync enabled: 1
+2025-02-12 13:23:49.082: [INFO] Sync initialization duration: 4787ms
