@@ -128,6 +128,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "flutter_rating_bar",
+      "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_rating_bar-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///D:/Semester%20VIII/TA%202/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -494,7 +500,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2025-02-17T08:53:51.503355Z",
+  "generated": "2025-02-17T12:32:28.638764Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///D:/Semester%20VIII/TA%202/flutter",
