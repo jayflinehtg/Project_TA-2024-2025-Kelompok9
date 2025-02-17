@@ -4,7 +4,6 @@
             "outputFile": "com.example.project_kelompok9.app-mergeDebugResources-25:/values-de/values-de.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -23,9 +22,6 @@
                 },
                 {
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-de\\values-de.xml",
-=======
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-de\\values-de.xml",
->>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,26 +36,6 @@
                         "endColumns": "97,101,99,99,107,104,117,100",
                         "endOffsets": "148,250,350,450,558,663,781,1298"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,159,260,371",
-                        "endColumns": "103,100,110,99",
-                        "endOffsets": "154,255,366,466"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "786,890,991,1102",
-                        "endColumns": "103,100,110,99",
-                        "endOffsets": "885,986,1097,1197"
-                    }
->>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                 }
             ]
         }

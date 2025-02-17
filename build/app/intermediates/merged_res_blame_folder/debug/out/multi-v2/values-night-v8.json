@@ -4,11 +4,7 @@
             "outputFile": "com.example.project_kelompok9.app-mergeDebugResources-25:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "D:\\TA\\Project_TA-2024-2025-Kelompok9\\android\\app\\src\\main\\res\\values-night\\styles.xml",
-=======
-                    "source": "D:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\android\\app\\src\\main\\res\\values-night\\styles.xml",
->>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

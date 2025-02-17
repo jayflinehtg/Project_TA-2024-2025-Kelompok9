@@ -4,7 +4,6 @@
             "outputFile": "com.example.project_kelompok9.app-mergeDebugResources-25:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -23,9 +22,6 @@
                 },
                 {
                     "source": "C:\\Users\\Vivobook\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-en-rXC\\values-en-rXC.xml",
-=======
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\4cefa050b0c4ea9b1f45909d19944071\\transformed\\core-1.13.1\\res\\values-en-rXC\\values-en-rXC.xml",
->>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,26 +36,6 @@
                         "endColumns": "195,204,200,200,206,204,211,203",
                         "endOffsets": "246,451,652,853,1060,1265,1477,2493"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\5fd828c943c2aae4856e4aa49ae40e71\\transformed\\browser-1.8.0\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,255,454,665",
-                        "endColumns": "199,198,210,201",
-                        "endOffsets": "250,449,660,862"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1482,1682,1881,2092",
-                        "endColumns": "199,198,210,201",
-                        "endOffsets": "1677,1876,2087,2289"
-                    }
->>>>>>> efefeee1ca6275c42b30364c7850cc7957b32e57
                 }
             ]
         }

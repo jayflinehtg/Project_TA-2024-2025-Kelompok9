@@ -51,7 +51,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Mengubah latar belakang dasar menjadi putih
+      backgroundColor: Color(0xFFEAF4E9), // Mengubah latar belakang dasar menjadi putih
       body: Center(
         child: SingleChildScrollView(
           child: Padding(
@@ -199,7 +199,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               'Sign Up',
                               style: TextStyle(
                                 fontSize: 16,
-                                fontWeight: FontWeight.bold,
+                                // fontWeight: FontWeight.bold,
                                 color: Colors.white,
                               ),
                             ),
