@@ -1,4 +1,4 @@
-#Fri Feb 14 08:24:16 WIB 2025
+#Fri Feb 14 08:28:45 WIB 2025
 base.0=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=D\:\\Semester VIII\\TA 2\\project_kelompok9\\project_kelompok9\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
