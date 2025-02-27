@@ -74,11 +74,22 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                           onPressed: () {
-                            // Navigasi ke ProfilePage setelah login
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => const ProfilePage()),
+                            // Tampilkan notifikasi pop-up message (SnackBar) setelah login
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('Login Berhasil!'),
+                                duration: Duration(seconds: 2),
+                                backgroundColor: Colors.green,
+                              ),
                             );
+
+                            // Navigasi ke ProfilePage setelah login berhasil
+                            Future.delayed(const Duration(seconds: 2), () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => const ProfilePage()),
+                              );
+                            });
                           },
                           child: const Text(
                             'Login',

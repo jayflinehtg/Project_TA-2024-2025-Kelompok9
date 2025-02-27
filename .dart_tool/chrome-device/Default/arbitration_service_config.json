@@ -151,6 +151,7 @@
          "cd4688a9-e888-48ea-ad81-76193d56b1be.AutoOpen.PDF": 1,
          "cd4688a9-e888-48ea-ad81-76193d56b1be.AutoOpen.PersistentChat": 1,
          "cd4688a9-e888-48ea-ad81-76193d56b1be.Bubble": 1,
+         "cd4688a9-e888-48ea-ad81-76193d56b1be.IsKnowledgeCardQuery.Bubble": 1,
          "cd4688a9-e888-48ea-ad81-76193d56b1be.IsMsnArticleUrlFromNtpP1P2.Bubble": 1,
          "cd4688a9-e888-48ea-ad81-76193d56b1be.IsTextPage.Bubble": 1,
          "cd4688a9-e888-48ea-ad81-76193d56b1be.IsTwitchNonStreamPage.Bubble": 1,
@@ -180,6 +181,6 @@
    },
    "SuppressedExperiences": [ "E-tree.Bubble", "Nurturing.Global.Bing_BingGrowthToastNotification", "Nurturing.Global.EdgeEDU_BrowserFocusedTranslateNudge", "Nurturing.Global.EdgeMobile_MobileUpsell_ChatGpt_Flyout", "Nurturing.Global.EdgeVpn_VpnPublicWifiInBackground", "Nurturing.Global.Identity_ReauthNotification", "Nurturing.Global.Identity_ReauthNotification_2", "Nurturing.Global.Identity_ReauthNotification_3", "Nurturing.Global.OnRamp_RetriggerFRECodexCoPilotAutoAprd", "Nurturing.Global.OnRamp_ReTriggerOnWinUpgrade", "Outlook.Bubble", "ShorelinePrivilegedExperienceID", "Teams.Bubble", "Nurturing.Global.PWA_SidebarSearchPromotion" ],
    "TimeDelta": 5000000,
-   "baseConfigVersion": "24.0.1",
-   "configVersion": "24.0.1"
+   "baseConfigVersion": "24.0.2",
+   "configVersion": "24.0.2"
 }

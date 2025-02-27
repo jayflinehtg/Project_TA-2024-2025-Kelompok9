@@ -23,10 +23,20 @@ class _ProfilePageState extends State<ProfilePage> {
     }
   }
 
+  void _showSnackBar(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(message),
+        duration: const Duration(seconds: 2),
+        backgroundColor: Colors.green,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: const Color(0xFFEAF4E9), 
+      backgroundColor: const Color(0xFFEAF4E9),
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
@@ -68,7 +78,9 @@ class _ProfilePageState extends State<ProfilePage> {
             _buildReadOnlyTextField('Email'),
             _buildReadOnlyTextField('Public Key'),
             _buildFilePickerField(),
-            _buildButton('Simpan', () {}, 40),
+            _buildButton('Simpan', () {
+              _showSnackBar('Perubahan disimpan!');
+            }, 40),
             const SizedBox(height: 24),
             _buildPasswordField('Kata Sandi Lama', _isPasswordVisibleOld, () {
               setState(() {
@@ -80,7 +92,9 @@ class _ProfilePageState extends State<ProfilePage> {
                 _isPasswordVisibleNew = !_isPasswordVisibleNew;
               });
             }),
-            _buildButton('Ubah Password', () {}, 40),
+            _buildButton('Ubah Password', () {
+              _showSnackBar('Password berhasil diubah!');
+            }, 40),
           ],
         ),
       ),
