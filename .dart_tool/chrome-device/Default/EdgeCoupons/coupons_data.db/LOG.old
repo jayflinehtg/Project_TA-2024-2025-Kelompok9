@@ -1,16 +1,33 @@
-2025/02/25-09:56:14.429 2d84 Reusing MANIFEST C:\Users\ASUS\AppData\Local\Temp\flutter_tools.1593cf1a\flutter_tools_chrome_device.98c18381\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2025/02/25-09:56:14.431 2d84 Recovering log #19
-2025/02/25-09:56:14.433 2d84 Reusing old log C:\Users\ASUS\AppData\Local\Temp\flutter_tools.1593cf1a\flutter_tools_chrome_device.98c18381\Default\EdgeCoupons/coupons_data.db/000019.log 
-2025/02/25-09:56:14.435 2d84 Delete type=0 #3
-2025/02/25-09:56:14.436 2d84 Delete type=0 #4
-2025/02/25-09:56:14.436 2d84 Delete type=0 #7
-2025/02/25-09:56:14.437 2d84 Delete type=2 #8
-2025/02/25-09:56:14.437 2d84 Delete type=0 #10
-2025/02/25-09:56:14.437 2d84 Delete type=2 #11
-2025/02/25-09:56:14.437 2d84 Delete type=0 #13
-2025/02/25-09:56:14.439 2d84 Delete type=2 #14
-2025/02/25-09:56:14.439 2d84 Delete type=0 #16
-2025/02/25-09:56:14.439 2d84 Delete type=2 #17
-2025/02/25-09:56:14.846 2c28 Level-0 table #24: started
-2025/02/25-09:56:14.855 2c28 Level-0 table #24: 668483 bytes OK
-2025/02/25-09:56:14.858 2c28 Delete type=0 #19
+2025/03/14-14:06:27.629 4454 Reusing MANIFEST C:\Users\ASUS\AppData\Local\Temp\flutter_tools.dc4b2824\flutter_tools_chrome_device.4b4aee34\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/03/14-14:06:27.635 4454 Recovering log #49
+2025/03/14-14:06:27.636 4454 Reusing old log C:\Users\ASUS\AppData\Local\Temp\flutter_tools.dc4b2824\flutter_tools_chrome_device.4b4aee34\Default\EdgeCoupons/coupons_data.db/000049.log 
+2025/03/14-14:06:27.637 4454 Delete type=0 #3
+2025/03/14-14:06:27.637 4454 Delete type=0 #4
+2025/03/14-14:06:27.637 4454 Delete type=0 #7
+2025/03/14-14:06:27.637 4454 Delete type=2 #8
+2025/03/14-14:06:27.637 4454 Delete type=0 #10
+2025/03/14-14:06:27.637 4454 Delete type=2 #11
+2025/03/14-14:06:27.637 4454 Delete type=0 #13
+2025/03/14-14:06:27.658 4454 Delete type=2 #14
+2025/03/14-14:06:27.658 4454 Delete type=0 #16
+2025/03/14-14:06:27.659 4454 Delete type=2 #17
+2025/03/14-14:06:27.659 4454 Delete type=0 #19
+2025/03/14-14:06:27.659 4454 Delete type=2 #21
+2025/03/14-14:06:27.659 4454 Delete type=0 #23
+2025/03/14-14:06:27.660 4454 Delete type=2 #24
+2025/03/14-14:06:27.661 4454 Delete type=0 #26
+2025/03/14-14:06:27.662 4454 Delete type=2 #27
+2025/03/14-14:06:27.662 4454 Delete type=0 #29
+2025/03/14-14:06:27.663 4454 Delete type=2 #30
+2025/03/14-14:06:27.663 4454 Delete type=0 #32
+2025/03/14-14:06:27.664 4454 Delete type=2 #34
+2025/03/14-14:06:27.664 4454 Delete type=0 #36
+2025/03/14-14:06:27.664 4454 Delete type=2 #37
+2025/03/14-14:06:27.664 4454 Delete type=0 #39
+2025/03/14-14:06:27.664 4454 Delete type=2 #40
+2025/03/14-14:06:27.664 4454 Delete type=0 #42
+2025/03/14-14:06:27.665 4454 Delete type=2 #43
+2025/03/14-14:06:27.665 4454 Delete type=0 #45
+2025/03/14-14:06:28.003 22c0 Level-0 table #53: started
+2025/03/14-14:06:28.008 22c0 Level-0 table #53: 669340 bytes OK
+2025/03/14-14:06:28.010 22c0 Delete type=0 #49

@@ -1,191 +1,86 @@
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
-import 'dart:io';
+import 'package:flutter/services.dart';
 
-class ProfilePage extends StatefulWidget {
+class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
   @override
-  _ProfilePageState createState() => _ProfilePageState();
-}
-
-class _ProfilePageState extends State<ProfilePage> {
-  File? _image;
-  bool _isPasswordVisibleOld = false;
-  bool _isPasswordVisibleNew = false;
-
-  Future<void> _pickImage() async {
-    final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
-    if (pickedFile != null) {
-      setState(() {
-        _image = File(pickedFile.path);
-      });
-    }
-  }
-
-  void _showSnackBar(String message) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(message),
-        duration: const Duration(seconds: 2),
-        backgroundColor: Colors.green,
-      ),
-    );
-  }
-
-  @override
   Widget build(BuildContext context) {
+    const String publicKey = "1234567898yrfg876543456thg";
+
     return Scaffold(
-      backgroundColor: const Color(0xFFEAF4E9),
+      backgroundColor: const Color(0xFFEAF4E9), // Warna latar belakang diperbaiki
       appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Colors.black),
-          onPressed: () => Navigator.pop(context),
-        ),
         title: const Text(
           'Profile',
           style: TextStyle(color: Colors.black),
         ),
-        backgroundColor: const Color(0xFF9ACAA1),
-        elevation: 0,
+        backgroundColor: const Color(0xFFA4D4AE),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+      body: Center(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
               'Nama Pengguna',
               style: TextStyle(
-                fontSize: 22,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Color.fromARGB(255, 50, 115, 63),
+                color: Color(0xFF498553),
               ),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 30), // Memberi jarak lebih panjang
             GestureDetector(
-              onTap: _pickImage,
-              child: CircleAvatar(
-                radius: 50,
-                backgroundColor: Colors.white,
-                backgroundImage: _image != null ? FileImage(_image!) : null,
-                child: _image == null
-                    ? const Icon(Icons.person, size: 60, color: Colors.black)
-                    : null,
-              ),
-            ),
-            const SizedBox(height: 16),
-            _buildReadOnlyTextField('Email'),
-            _buildReadOnlyTextField('Public Key'),
-            _buildFilePickerField(),
-            _buildButton('Simpan', () {
-              _showSnackBar('Perubahan disimpan!');
-            }, 40),
-            const SizedBox(height: 24),
-            _buildPasswordField('Kata Sandi Lama', _isPasswordVisibleOld, () {
-              setState(() {
-                _isPasswordVisibleOld = !_isPasswordVisibleOld;
-              });
-            }),
-            _buildPasswordField('Kata Sandi Baru', _isPasswordVisibleNew, () {
-              setState(() {
-                _isPasswordVisibleNew = !_isPasswordVisibleNew;
-              });
-            }),
-            _buildButton('Ubah Password', () {
-              _showSnackBar('Password berhasil diubah!');
-            }, 40),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildReadOnlyTextField(String label) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
-      child: TextField(
-        decoration: InputDecoration(
-          labelText: label,
-          filled: true,
-          fillColor: const Color.fromARGB(255, 255, 255, 255),
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(8),
-            borderSide: BorderSide.none,
-          ),
-        ),
-        readOnly: true,
-      ),
-    );
-  }
-
-  Widget _buildFilePickerField() {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
-      child: Row(
-        children: [
-          Expanded(
-            child: TextField(
-              decoration: InputDecoration(
-                labelText: 'Foto Profile',
-                filled: true,
-                fillColor: const Color.fromARGB(255, 255, 255, 255),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(8),
-                  borderSide: BorderSide.none,
+              onTap: () {
+                Clipboard.setData(const ClipboardData(text: publicKey));
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Public Key disalin!')),
+                );
+              },
+              child: Text(
+                'Public Key: $publicKey',
+                style: const TextStyle(
+                  fontSize: 14,
+                  color: Colors.black54,
+                  decoration: TextDecoration.underline, // Efek bisa diklik
                 ),
               ),
-              readOnly: true,
             ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.attach_file),
-            onPressed: _pickImage,
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildPasswordField(String label, bool isVisible, VoidCallback toggleVisibility) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
-      child: TextField(
-        obscureText: !isVisible,
-        decoration: InputDecoration(
-          labelText: label,
-          filled: true,
-          fillColor: const Color.fromARGB(255, 255, 255, 255),
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(8),
-            borderSide: BorderSide.none,
-          ),
-          suffixIcon: IconButton(
-            icon: Icon(isVisible ? Icons.visibility : Icons.visibility_off),
-            onPressed: toggleVisibility,
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildButton(String text, VoidCallback onPressed, double height) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: SizedBox(
-        height: height,
-        child: ElevatedButton(
-          onPressed: onPressed,
-          style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF498553),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(10),
+            const SizedBox(height: 12), // Jarak sebelum email
+            const Text(
+              'pengguna@example.com',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.black87,
+              ),
             ),
-          ),
-          child: Text(
-            text,
-            style: const TextStyle(color: Colors.white, fontSize: 16),
-          ),
+            const SizedBox(height: 36),
+            SizedBox(
+              width: 140,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red,
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(24),
+                  ),
+                ),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text(
+                  'Log Out',
+                  style: TextStyle(fontSize: 16, color: Colors.white),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
